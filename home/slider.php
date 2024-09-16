@@ -20,8 +20,18 @@
                             <span class="fw-600 text-white font-man"><?= htmlspecialchars($row['sub_title']) ?></span>
                         </div>
                         <h1 class="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">
-                            <?= $row['title'] ?>
+                            <?php
+                            // Split the title into chunks of 16 characters
+                            $formattedTitle = chunk_split($row['title'], 16, '<br>');
+
+                            // Trim the trailing <br> if present
+                            $formattedTitle = rtrim($formattedTitle, '<br>');
+
+                            // Output the formatted title
+                            echo $formattedTitle;
+                            ?>
                         </h1>
+
                         <p class="des text-white fw-500 mb-40 wow fadeInUpSmall" data-wow-delay=".3s">
                             <?= htmlspecialchars($row['bottom_title']) ?>
                         </p>
