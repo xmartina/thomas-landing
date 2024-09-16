@@ -24,8 +24,7 @@
         <div class="footer-main  flex">
             <div class="footer-main-item logo-footer wow fadeInUpSmall" data-wow-delay=".2s">
                 <img src=" <?=$siteUrl?>assets/images/logo_footer.png" alt="image" class="logo">
-                <p class="des font-man">Sed ut persiciatis unde omnis natus
-                    voluptatem accusantium dolore</p>
+                <p class="des font-man"><?=$site_dec?></p>
                 <div class="follow-social">
                     <span>Follow Us</span>
                     <ul class="social-footer flex-three">
@@ -107,7 +106,7 @@
         </div>
         <div class="footer-bottom2 row">
             <div class="col-md-6">
-                <p>© 2023 WiaTech - IT Services. All rights reserved.</p>
+                <p>© 2024 <?=$site_name?> - <?=$site_title?>. All rights reserved.</p>
             </div>
             <div class="col-md-6">
                 <ul class="menu-right-bottom flex-six">
@@ -176,14 +175,12 @@
             </li>
 
         </ul>
-        <p class="des">Pellentesque mollis nec orci id tincidunt. Sed mollis risus eu nisi aliquet, sit amet
-            fermentum justo dapibus.</p>
+        <p class="des"><?=$site_dec?></p>
         <div class="footer-main-locations">
             <h5 class="title-footer">Contact</h5>
-            <p class="font-man text-lcation">55 Main Street, 2nd block <br>
-                Malborne, Australia</p>
-            <p class="font-man text-lcation ">support@gmail.com</p>
-            <p class="phone">+880 (123) 456 88</p>
+            <p class="font-man text-lcation"><?=$site_address?></p>
+            <p class="font-man text-lcation "><?=$site_email?></p>
+            <p class="phone">+<?=$site_phone?></p>
         </div>
         <div class="follow-social">
             <span>Follow Us</span>
@@ -203,7 +200,7 @@
             </ul>
 
         </div>
-        <p class="des">© 2023 WiaTech - IT Services.</p>
+        <p class="des">© 2024 <?=$site_name?> - <?=$site_title?>.</p>
     </div>
 </div>
 
