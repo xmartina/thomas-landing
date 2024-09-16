@@ -1,35 +1,6 @@
 <!-- Partner -->
 <section class="section-partner bg-1">
     <div class="tf-container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="swiper brand-logo overflow-hiden">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/brh11.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/br-h12.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/br-h13.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/br-h14.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/br-h15.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/br-h16.png" alt="image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="<?=$siteUrl?>assets/images/brand/br-h13.png" alt="image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row mb--10em relative">
             <div class="col-md-4 wow fadeInUpSmall" data-wow-delay=".2s">
                 <div class="icon-box bd-rd-12 relative overflow-hiden">
