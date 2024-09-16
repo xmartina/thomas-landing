@@ -2,6 +2,9 @@
 <section class="swiper slider-Swiper-it relative">
     <div class="swiper-wrapper">
         <?php
+        function addBreaks($text, $maxLength = 18) {
+            return preg_replace('/(.{1,' . $maxLength . '})(\s|$)/', '$1<br>', $text);
+        }
         while ($row = $result->fetch_assoc()) {
             echo "<pre>";
             print_r($row); // Output each row to debug
@@ -22,9 +25,6 @@
                             </div>
                             <h1 class="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">
                                 <?php
-                                function addBreaks($text, $maxLength = 18) {
-                                    return preg_replace('/(.{1,' . $maxLength . '})(\s|$)/', '$1<br>', $text);
-                                }
                                 echo addBreaks($row['title']);
                                 ?>
                             </h1>
