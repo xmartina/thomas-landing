@@ -96,3 +96,6 @@ a:focus, a:hover {
 .footer-style-2 .footer-bottom2 .menu-right-bottom li a:hover {
     color: #057a0f;
 }
+footer-style-2 {
+    margin-top: 190px !important;
+}
