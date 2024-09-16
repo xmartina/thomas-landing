@@ -21,16 +21,20 @@
                         </div>
                         <h1 class="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">
                             <?php
-                            // Split the title into chunks of 16 characters
-                            $formattedTitle = chunk_split($row['title'], 16, '<br>');
+                            // Function to add <br> after approximately every 16 characters, breaking at spaces
+                            function addBreaks($text, $maxLength = 16) {
+                                // Use regular expression to insert <br> at nearest space after every 16 characters
+                                return preg_replace('/(.{1,' . $maxLength . '})(\s|$)/', '$1<br>', $text);
+                            }
 
-                            // Trim the trailing <br> if present
-                            $formattedTitle = rtrim($formattedTitle, '<br>');
+                            // Apply the function to the title
+                            $formattedTitle = addBreaks($row['title']);
 
                             // Output the formatted title
                             echo $formattedTitle;
                             ?>
                         </h1>
+
 
                         <p class="des text-white fw-500 mb-40 wow fadeInUpSmall" data-wow-delay=".3s">
                             <?= htmlspecialchars($row['bottom_title']) ?>
