@@ -23,7 +23,7 @@
     <div class="tf-container relative z-index-3">
         <div class="footer-main  flex">
             <div class="footer-main-item logo-footer wow fadeInUpSmall" data-wow-delay=".2s">
-                <img src="./assets/images/logo2.png" alt="image" class="logo">
+                <img src=" <?=$siteUrl?>assets/images/logo_footer.png" alt="image" class="logo">
                 <p class="des font-man">Sed ut persiciatis unde omnis natus
                     voluptatem accusantium dolore</p>
                 <div class="follow-social">
@@ -210,18 +210,18 @@
 <!-- <a id="scroll-top" class="button-go"></a> -->
 
 <!-- Javascript -->
-<script src="app/js/jquery.min.js"></script>
-<script src="app/js/jquery.easing.js"></script>
-<script src="app/js/jquery.nice-select.min.js"></script>
-<script src="app/js/bootstrap.min.js"></script>
-<script src="app/js/countto.js"></script>
-<script src="app/js/jquery.fancybox.js"></script>
-<script src="app/js/swiper-bundle.min.js"></script>
-<script src="app/js/swiper.js"></script>
-<script src="app/js/plugin.js"></script>
-<script src="app/js/textanimation.js"></script>
-<script src="app/js/shortcodes.js"></script>
-<script src="app/js/main.js"></script>
+<script src=" <?=$siteUrl?>app/js/jquery.min.js"></script>
+<script src=" <?=$siteUrl?>app/js/jquery.easing.js"></script>
+<script src=" <?=$siteUrl?>app/js/jquery.nice-select.min.js"></script>
+<script src=" <?=$siteUrl?>app/js/bootstrap.min.js"></script>
+<script src=" <?=$siteUrl?>app/js/countto.js"></script>
+<script src=" <?=$siteUrl?>app/js/jquery.fancybox.js"></script>
+<script src=" <?=$siteUrl?>app/js/swiper-bundle.min.js"></script>
+<script src=" <?=$siteUrl?>app/js/swiper.js"></script>
+<script src=" <?=$siteUrl?>app/js/plugin.js"></script>
+<script src=" <?=$siteUrl?>app/js/textanimation.js"></script>
+<script src=" <?=$siteUrl?>app/js/shortcodes.js"></script>
+<script src=" <?=$siteUrl?>app/js/main.js"></script>
 
 </body>
 
