@@ -36,7 +36,7 @@
                     <img src="<?=$siteUrl?>assets/images/slide/slider1lider2.jpg" alt="">
                 </div>
                 <span class="it-solution fw-600">IT Solutions</span>
-                <img src="<?=$siteUrl?>assets/images/slide/mask.png" alt="image" class="mask-slider">
+                 
                 <div class="tf-container">
                     <div class="slider-content-it relative z-index-3">
                         <div class="sub-title-slider wow fadeInUpSmall">
@@ -65,7 +65,7 @@
                     <img src="<?=$siteUrl?>assets/images/slide/slider1lider2.jpg" alt="">
                 </div>
                 <span class="it-solution fw-600">IT Solutions</span>
-                <img src="<?=$siteUrl?>assets/images/slide/mask.png" alt="image" class="mask-slider">
+                 
                 <div class="tf-container">
                     <div class="slider-content-it relative z-index-3">
                         <div class="sub-title-slider wow fadeInUpSmall">
@@ -94,7 +94,7 @@
                     <img src="<?=$siteUrl?>assets/images/slide/slider1lider2.jpg" alt="">
                 </div>
                 <span class="it-solution fw-600">IT Solutions</span>
-                <img src="<?=$siteUrl?>assets/images/slide/mask.png" alt="image" class="mask-slider">
+                 
                 <div class="tf-container">
                     <div class="slider-content-it relative z-index-3">
                         <div class="sub-title-slider wow fadeInUpSmall">
