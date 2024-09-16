@@ -2,8 +2,8 @@
 <section class="section-service mt--120px pt-122 pb-130 bg-2">
     <div class="tf-container">
         <div class="heading-title center mb-60">
-            <span class="sub-title texts-blue font-man wow fadeInUpSmall" data-wow-delay=".2s">Popular Services</span>
-            <h2 class="title wow fadeInUpSmall" data-wow-delay=".3s">Services We Provide</h2>
+            <span class="sub-title texts-blue font-man wow fadeInUpSmall" data-wow-delay=".2s">Our Departments</span>
+            <h2 class="title wow fadeInUpSmall" data-wow-delay=".3s">Departments</h2>
         </div>
         <div class="service-grid mb-40 wow fadeInUpSmall" data-wow-delay=".3s">
             <div class="icon-box1">
