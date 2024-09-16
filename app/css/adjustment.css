@@ -68,3 +68,6 @@
     background-color: #057a0f;
     border: 1px solid #057a0f;
 }
+.icon-box::after {
+    background-color: #057a0f;
+}
