@@ -78,3 +78,6 @@
     color: #057a0f;
     -webkit-text-stroke: 1px #057a0f;
 }
+button, input[type=submit] {
+    background-color: #057a0f;
+}
