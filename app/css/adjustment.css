@@ -58,3 +58,9 @@
 .main-header.header-style1 .header-lower .header-account .flat-bt-top {
     background-color: #057a0f;
 }
+::-webkit-scrollbar-thumb {
+    background: #057a0f;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #057a0f;
+}
