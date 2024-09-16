@@ -13,3 +13,42 @@
 .main-header .header-top .address-top-header li {
     color: #F7F8FD;
 }
+.mobile-menu .navigation li:hover > a, .mobile-menu .navigation li.current > a {
+    color: #057a0f !important;
+}
+.mobile-menu .navigation li > ul, .mobile-menu .navigation li > ul > li > ul {
+    background: #0f1702;
+}
+.button-src {
+    background-color: #057a0f;
+}
+.bg-1 {
+    background-color: #0e1503;
+}
+.icon-box::before {
+    background-color: #057a0f;
+}
+.section-about-us .about-us-image .vector {
+    color: #057a0f;
+}
+.texts-blue {
+    color: #057a0f;
+}
+.counter-style1 .icon {
+    color: #057a0f;
+}
+.icon-box1 .icon-box1-hide .number {
+    color: #057a0f;
+}
+.icon-box1:hover .icon-box1-hide {
+    background-color: #057a0f;
+}
+.icon-box1:hover {
+    background-color: #057a0f;
+}
+.icon-box1 .icon-box1-visible .content .number {
+    color: #057a0f;
+}
+.icon-box1 .icon-box1-visible .content .icon {
+    color: #057a0f;
+}
