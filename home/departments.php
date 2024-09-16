@@ -1,5 +1,5 @@
 <!-- Services -->
-<section class="section-service pt-122 pb-130 bg-2">
+<section class="section-service mt--120px pt-122 pb-130 bg-2">
     <div class="tf-container">
         <div class="heading-title center mb-60">
             <span class="sub-title texts-blue font-man wow fadeInUpSmall" data-wow-delay=".2s">Popular Services</span>
