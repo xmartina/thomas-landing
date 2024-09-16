@@ -87,11 +87,7 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 ">
-                <a id="scroll-top" class="button-go go-top-h1 relative"></a>
-            </div>
-        </div>
+
         <div class="footer-bottom2 row">
             <div class="col-md-6">
                 <p>© 2024 <?=$site_name?> - <?=$site_title?>. All rights reserved.</p>
