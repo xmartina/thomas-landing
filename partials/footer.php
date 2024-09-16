@@ -1,5 +1,5 @@
 <div class="my-5"></div>
-<footer id="footer" class="relative footer-style-2 mt-5">
+<footer id="footer" class="relative footer-style-2">
     <div class="marque-text-slider-footer d-none">
         <div class="marquee-wrapper text-slider">
             <div class="marquee-inner to-left">
