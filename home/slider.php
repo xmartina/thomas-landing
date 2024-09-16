@@ -22,7 +22,7 @@
                         <h1 class="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">
                             <?php
                             // Function to add <br> after approximately every 16 characters, breaking at spaces
-                            function addBreaks($text, $maxLength = 16) {
+                            function addBreaks($text, $maxLength = 18) {
                                 // Use regular expression to insert <br> at nearest space after every 16 characters
                                 return preg_replace('/(.{1,' . $maxLength . '})(\s|$)/', '$1<br>', $text);
                             }
