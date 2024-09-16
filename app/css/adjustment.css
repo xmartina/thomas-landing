@@ -74,3 +74,7 @@
 .loader span:nth-child(1) {
     -webkit-text-stroke: 2px #057a0f;
 }
+.loader span:nth-child(2) {
+    color: #057a0f;
+    -webkit-text-stroke: 1px #057a0f;
+}
