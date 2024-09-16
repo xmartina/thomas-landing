@@ -1,7 +1,7 @@
 <!-- Partner -->
 <section class="section-partner bg-1">
     <div class="tf-container">
-        <div class="row mb--10em relative">
+        <div class="row mb--10em pt-4 relative">
             <div class="col-md-4 wow fadeInUpSmall" data-wow-delay=".2s">
                 <div class="icon-box bd-rd-12 relative overflow-hiden">
                     <div class="mask-bg-iconbox">
