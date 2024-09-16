@@ -71,3 +71,6 @@
 .icon-box::after {
     background-color: #057a0f;
 }
+.loader span:nth-child(1) {
+    -webkit-text-stroke: 2px #057a0f;
+}
