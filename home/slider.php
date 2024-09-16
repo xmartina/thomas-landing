@@ -20,7 +20,7 @@
                             <span class="fw-600 text-white font-man"><?= htmlspecialchars($row['sub_title']) ?></span>
                         </div>
                         <h1 class="title-slider text-white wow fadeInUpSmall" data-wow-delay=".2s">
-                            <?= htmlspecialchars($row['title']) ?>
+                            <?= $row['title'] ?>
                         </h1>
                         <p class="des text-white fw-500 mb-40 wow fadeInUpSmall" data-wow-delay=".3s">
                             <?= htmlspecialchars($row['bottom_title']) ?>
