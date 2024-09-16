@@ -18,6 +18,7 @@
     <link rel="apple-touch-icon-precomposed" href="<?=$siteUrl?>assets/images/favicon.png">
 
     <link rel="stylesheet" href="<?=$siteUrl?>app/css/adjustment.css">
+    <link rel="stylesheet" href="<?=$siteUrl?>app/css/adjustment.scss">
 
 </head>
 
