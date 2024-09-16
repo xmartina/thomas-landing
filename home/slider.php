@@ -11,7 +11,7 @@
                     <!-- Use the slider_img column from the database for the image source -->
                     <img src="<?=$siteUrl?>assets/images/slide/<?= htmlspecialchars($row['slider_img']) ?>" alt="">
                 </div>
-                <span class="it-solution fw-600"><?= htmlspecialchars($row['bottom_title']) ?></span>
+                <span class="it-solution fw-600"><?= htmlspecialchars($row['inner_big_text']) ?></span>
                 <!-- Example for dynamically adding sub-title and other fields -->
                 <div class="tf-container">
                     <div class="slider-content-it relative z-index-3">
@@ -23,7 +23,7 @@
                             <?= htmlspecialchars($row['title']) ?>
                         </h1>
                         <p class="des text-white fw-500 mb-40 wow fadeInUpSmall" data-wow-delay=".3s">
-                            <?= htmlspecialchars($row['inner_big_text']) ?>
+                            <?= htmlspecialchars($row['bottom_title']) ?>
                         </p>
                         <div class="btn-main wow fadeInUpSmall" data-wow-delay=".4s">
                             <a href="<?= htmlspecialchars($row['button_link']) ?>" class="button-src">
