@@ -14,16 +14,14 @@
                     </div>
                     <div class="icon-box-content z-index-3 relative">
                         <div class="icon mb-30">
-                            <i class="icon-effectiveness"></i>
+                            <i class="icon-education"></i>
                         </div>
-                        <h3 class="title mb-13"><a href="#">Cost-effectiveness</a></h3>
-                        <p class="des mb-26">We offer affordable IT solutions that help
-                            you reduce costs and improve
-                        </p>
-                        <a href="#" class="btn-icon-box bd-rd-12">Read More <i
-                                class="icon-right"></i>
+                        <h3 class="title mb-13"><a href="#">Academic Excellence</a></h3>
+                        <p class="des mb-26">We provide top-tier education that fosters innovation and critical thinking, preparing students for global success.</p>
+                        <a href="#" class="btn-icon-box bd-rd-12">Learn More <i class="icon-right"></i>
                         </a>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-4 wow fadeInUpSmall" data-wow-delay=".3s">
@@ -38,16 +36,13 @@
                     </div>
                     <div class="icon-box-content z-index-3 relative">
                         <div class="icon mb-30">
-                            <i class="icon-project-management-1"></i>
+                            <i class="icon-scholarship"></i>
                         </div>
-                        <h3 class="title mb-13"><a href="#">Innovative Technology</a></h3>
-                        <p class="des mb-26">We offer affordable IT solutions that help
-                            you reduce costs and improve
-                        </p>
-                        <a href="#" class="btn-icon-box bd-rd-12">Read More <i
-                                class="icon-right"></i>
-                        </a>
+                        <h3 class="title mb-13"><a href="#">Scholarship Opportunities</a></h3>
+                        <p class="des mb-26">Explore a wide range of scholarships designed to support outstanding students in achieving their academic goals.</p>
+                        <a href="#" class="btn-icon-box bd-rd-12">Explore Scholarships <i class="icon-right"></i></a>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-4 wow fadeInUpSmall" data-wow-delay=".4s">
@@ -62,16 +57,13 @@
                     </div>
                     <div class="icon-box-content z-index-3 relative">
                         <div class="icon mb-30">
-                            <i class="icon-customer-satisfaction-1"></i>
+                            <i class="icon-campus"></i>
                         </div>
-                        <h3 class="title mb-13"><a href="#">Industry Expertise</a></h3>
-                        <p class="des mb-26">We offer affordable IT solutions that help
-                            you reduce costs and improve
-                        </p>
-                        <a href="#" class="btn-icon-box bd-rd-12">Read More <i
-                                class="icon-right"></i>
-                        </a>
+                        <h3 class="title mb-13"><a href="#">Vibrant Campus Life</a></h3>
+                        <p class="des mb-26">Join a dynamic and inclusive community that offers diverse extracurricular activities and social events for all students.</p>
+                        <a href="#" class="btn-icon-box bd-rd-12">Join the Community <i class="icon-right"></i></a>
                     </div>
+
                 </div>
             </div>
         </div>
