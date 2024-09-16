@@ -84,3 +84,15 @@ button, input[type=submit] {
 .footer-style-2 .footer-main .menu-service li a:hover {
     color: #057a0f;
 }
+a:focus, a:hover {
+    color: #057a0f;
+}
+.hamburger-area .follow-social .social-footer li a {
+    background-color: #057a0f;
+}
+a:focus, a:hover {
+    color: #057a0f;
+}
+.footer-style-2 .footer-bottom2 .menu-right-bottom li a:hover {
+    color: #057a0f;
+}
