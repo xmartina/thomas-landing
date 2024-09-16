@@ -1,3 +1,6 @@
+:root {
+    --swiper-theme-color: #057a0f;
+}
 .main-header .main-menu .navigation > li:hover > a, .main-header .main-menu .navigation > li.current > a {
     color: #057a0f !important;
 }
@@ -51,4 +54,7 @@
 }
 .icon-box1 .icon-box1-visible .content .icon {
     color: #057a0f;
+}
+.main-header.header-style1 .header-lower .header-account .flat-bt-top {
+    background-color: #057a0f;
 }
