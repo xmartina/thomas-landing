@@ -1,12 +1,5 @@
 <footer id="footer" class="relative footer-style-2">
-    <div class="marque-text-slider-footer">
-        <div class="marquee-wrapper text-slider">
-            <div class="marquee-inner to-left">
-                <ul class="marqee-list d-flex">
-                </ul>
-            </div>
-        </div>
-    </div>
+
     <div class="tf-container relative z-index-3">
         <div class="footer-main  flex">
             <div class="footer-main-item logo-footer wow fadeInUpSmall" data-wow-delay=".2s">
