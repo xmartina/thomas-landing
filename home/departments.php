@@ -197,9 +197,9 @@
         </div>
         <div class="center wow fadeInUpSmall" data-wow-delay=".3s">
             <div class="service-cta">
-                <img src="<?=$siteUrl?>assets/images/page/chat1.png" alt="image">
-                <p class="font-man">Get Free Consultations For Tech Solutions</p>
-                <a href="#">Get A Quote <i class="icon-right-icon"></i></a>
+<!--                <img src="--><?php //=$siteUrl?><!--assets/images/page/chat1.png" alt="image">-->
+                <p class="font-man">We have More</p>
+                <a href="#">View All Departments <i class="icon-right-icon"></i></a>
             </div>
         </div>
     </div>
