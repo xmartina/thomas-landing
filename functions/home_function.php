@@ -14,5 +14,5 @@ if (!$result) {
 }
 
 //department function
-$sql = "SELECT * FROM departments ORDER BY RAND() LIMIT 6";
-$result = $conn->query($sql);
+$dep_sql = "SELECT * FROM departments ORDER BY RAND() LIMIT 6";
+$dep_result = $conn->query($dep_sql);
