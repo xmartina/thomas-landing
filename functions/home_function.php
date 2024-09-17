@@ -13,3 +13,9 @@ if (!$result) {
     die("Database query failed: " . $conn->error);
 }
 
+//department function
+$query = "SELECT * FROM departments ORDER BY RAND() LIMIT 6";
+$stmt = $pdo->prepare($query);
+$stmt->execute();
+
+$i = 1; // Initialize counter for numbering
