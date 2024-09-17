@@ -33,7 +33,7 @@ if (isset($_GET['book_id'])) {
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $page_name = $row['dep_name'];
-        echo "Department Name: " . htmlspecialchars($page_name);
+//        echo "Department Name: " . htmlspecialchars($page_name);
     } else {
         echo "No department found with that ID.";
     }
