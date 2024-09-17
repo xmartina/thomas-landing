@@ -7,9 +7,9 @@
         </div>
         <div class="service-grid mb-40 wow fadeInUpSmall" data-wow-delay=".3s">
             <?php
-            if ($result->num_rows > 0) {
+            if ($dep_result->num_rows > 0) {
                 $i = 1; // Initialize counter for numbering
-                while ($row = $result->fetch_assoc()) {
+                while ($row = $dep_result->fetch_assoc()) {
                     echo '<div class="icon-box1">
                 <div class="icon-box1-visible flex-two">
                     <div class="content">
