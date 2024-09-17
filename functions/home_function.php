@@ -9,10 +9,12 @@ $sql = "SELECT * FROM front_slider"; // Make sure this is correct
 $result = $conn->query($sql);
 
 // Check if the query was successful
-if (!$result) {
-    die("Database query failed: " . $conn->error);
-}
+
 
 //department function
 $dep_sql = "SELECT * FROM departments ORDER BY RAND() LIMIT 6";
 $dep_result = $conn->query($dep_sql);
+
+if (!$result) {
+    die("Database query failed: " . $conn->error);
+}
