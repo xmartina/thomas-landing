@@ -12,7 +12,8 @@ $result = $conn->query($sql);
 
 
 //department function
-
+//$dep_sql = "SELECT * FROM departments ORDER BY RAND() LIMIT 6";
+//$dep_result = $conn->query($dep_sql);
 
 if (!$result) {
     die("Database query failed: " . $conn->error);
