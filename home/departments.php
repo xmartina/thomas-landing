@@ -11,37 +11,38 @@
                 $i = 1; // Initialize counter for numbering
                 while ($row = $dep_result->fetch_assoc()) {
                     echo '<div class="icon-box1">
-                <div class="icon-box1-visible flex-two">
-                    <div class="content">
-                        <span class="number mb-15">' . str_pad($i, 2, '0', STR_PAD_LEFT) . '</span>
-                        <h3 class="title mb-47"><a href="pages/department/page?' . $row['book_id'] . '">' . htmlspecialchars($row['dep_name']) . '</a></h3>
-                        <div class="icon">
-                            <i class="icon-Icon11"></i>
-                        </div>
-                    </div>
-                    <div class="button-icon-box">
-                        <a href="pages/department/page?=' . $row['book_id'] . '" class="service-link"><i class="icon-angle-downs"></i></a>
+            <div class="icon-box1-visible flex-two">
+                <div class="content">
+                    <span class="number mb-15">' . str_pad($i, 2, '0', STR_PAD_LEFT) . '</span>
+                    <h3 class="title mb-47"><a href="https://tmit.com.ng/pages/department/page/?book_id=' . $row['book_id'] . '">' . htmlspecialchars($row['dep_name']) . '</a></h3>
+                    <div class="icon">
+                        <i class="icon-Icon11"></i>
                     </div>
                 </div>
-                <div class="icon-box1-hide">
-                    <div class="flex-one">
-                        <div class="icon">
-                            <i class="icon-Icon11"></i>
-                        </div>
-                        <span class="number">' . str_pad($i, 2, '0', STR_PAD_LEFT) . '</span>
-                    </div>
-                    <h3 class="title"><a href="pages/department/page?=' . $row['book_id'] . '">' . htmlspecialchars($row['dep_name']) . '</a></h3>
-                    <p class="des">' . htmlspecialchars($row['dep_short_dec']) . '</p>
-                    <div class="button-icon-box">
-                        <a href="pages/department/page?=' . $row['book_id'] . '" class="service-link">Read More<i class="icon-right-icon"></i></a>
-                    </div>
+                <div class="button-icon-box">
+                    <a href="https://tmit.com.ng/pages/department/page/?book_id=' . $row['book_id'] . '" class="service-link"><i class="icon-angle-downs"></i></a>
                 </div>
-            </div>';
+            </div>
+            <div class="icon-box1-hide">
+                <div class="flex-one">
+                    <div class="icon">
+                        <i class="icon-Icon11"></i>
+                    </div>
+                    <span class="number">' . str_pad($i, 2, '0', STR_PAD_LEFT) . '</span>
+                </div>
+                <h3 class="title"><a href="https://tmit.com.ng/pages/department/page/?book_id=' . $row['book_id'] . '">' . htmlspecialchars($row['dep_name']) . '</a></h3>
+                <p class="des">' . htmlspecialchars($row['dep_short_dec']) . '</p>
+                <div class="button-icon-box">
+                    <a href="https://tmit.com.ng/pages/department/page/?book_id=' . $row['book_id'] . '" class="service-link">Read More<i class="icon-right-icon"></i></a>
+                </div>
+            </div>
+        </div>';
                     $i++; // Increment counter
                 }
             } else {
                 echo "0 results";
             }
+
             ?>
 
 
