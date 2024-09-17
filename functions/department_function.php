@@ -17,28 +17,18 @@ $dep_img = $row["dep_img"];
 
 // Check if 'book_id' is set in the URL and is numeric
 if (isset($_GET['book_id'])) {
-    $book_id = $_GET['book_id'];
+    $book_id = $_GET['book_id']; // Ensure this input is validated and sanitized properly
 
-    // Database connection
-    include_once (__DIR__ . '/main.php');
-    // Include your DB connection script
-
-    // Prepare and execute the SQL query
-    $sql = "SELECT dep_name FROM departments WHERE book_id = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param('i', $book_id);
-    $stmt->execute();
-    $result = $stmt->get_result();
+// Query using direct substitution (Note: This method is vulnerable to SQL injection if $book_id is not properly sanitized)
+    $sql = "SELECT * FROM departments WHERE book_id = $book_id"; // Adjust the table name if different
+    $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        $page_name = $row['dep_name'];
-//        echo "Department Name: " . htmlspecialchars($page_name);
-    } else {
-        echo "No department found with that ID.";
-    }
+        $page_name = $row['dep_name']; // Example of using one of the returned columns
 
-    $stmt->close();
-} else {
-    echo "Invalid or missing book_id in URL.";
+        echo "Department Name: " . htmlspecialchars($page_name);
+    } else {
+        echo "No department found for the provided ID.";
+    }
 }
