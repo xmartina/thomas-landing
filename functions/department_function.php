@@ -19,7 +19,7 @@ if (isset($_GET['book_id']) && is_numeric($_GET['book_id'])) {
     $book_id = $_GET['book_id'];
 
     // Database connection (Assuming $conn is your database connection variable)
-    require 'your_database_connection_file.php';  // Include your DB connection script
+    include_once (__DIR__ . '/main.php');
 
     // Prepare and execute the SQL query
     $sql = "SELECT dep_name FROM departments WHERE book_id = ?";
