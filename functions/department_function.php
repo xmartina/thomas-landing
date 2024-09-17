@@ -15,42 +15,31 @@ $dep_dec = $row["dep_dec"];
 $dep_short_dec = $row["dep_short_dec"];
 $dep_img = $row["dep_img"];
 
+if (isset($_GET['book_id']) && is_numeric($_GET['book_id'])) {
+    $book_id = $_GET['book_id'];
 
-// Perform the query to fetch department data
-$sql = "SELECT * FROM departments"; // Adjust the table name if different
-$result = $conn->query($sql);
+    // Database connection (Assuming $conn is your database connection variable)
+    require 'your_database_connection_file.php';  // Include your DB connection script
 
-// Check if there are any results
-if ($result->num_rows > 0) {
-    // Fetch the first row of the result set
-    $row = $result->fetch_assoc();
+    // Prepare and execute the SQL query
+    $sql = "SELECT dep_name FROM departments WHERE book_id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param('i', $book_id); // 'i' denotes 'integer'
+    $stmt->execute();
+    $result = $stmt->get_result();
 
-    // Assign department data to variables
-    $dep_name = $row["dep_name"];
-    $dep_title = $row["dep_name"]; // Example if title is same as name
-    $dep_dec = $row["dep_dec"];
-    $dep_short_dec = $row["dep_short_dec"];
-    $dep_img = $row["dep_img"];
-    $book_id = $row["book_id"]; // Ensure 'book_id' is included in your SELECT statement if it's needed for URL generation
+    // Check if a department was found
+    if ($result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        $page_name = $row['dep_name'];
 
-    // Set the page name as the department name
-    $page_name = $dep_name;
+        // Use $page_name as needed
+        echo "Department Name: " . htmlspecialchars($page_name);
+    } else {
+        echo "No department found with that ID.";
+    }
 
-    // Generate a URL with book_id
-    $page_url = "page?book_id=" . $book_id;
-
-    // Example output using these variables
-    echo '<div class="department">
-            <h2>' . htmlspecialchars($page_name) . '</h2>
-            <p>' . htmlspecialchars($dep_dec) . '</p>
-            <img src="' . htmlspecialchars($dep_img) . '" alt="' . htmlspecialchars($dep_name) . '">
-            <a href="' . htmlspecialchars($page_url) . '">Visit Page</a>
-            <div>
-                <h3>Short Description</h3>
-                <p>' . htmlspecialchars($dep_short_dec) . '</p>
-            </div>
-          </div>';
+    $stmt->close();
 } else {
-    echo "No departments found.";
+    echo "Invalid or missing book_id in URL.";
 }
-
