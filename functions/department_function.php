@@ -16,7 +16,7 @@ $dep_short_dec = $row["dep_short_dec"];
 $dep_img = $row["dep_img"];
 
 // Check if 'book_id' is set in the URL and is numeric
-if (isset($_GET['book_id']) && is_numeric($_GET['book_id'])) {
+if (isset($_GET['book_id'])) {
     $book_id = $_GET['book_id'];
 
     // Database connection
