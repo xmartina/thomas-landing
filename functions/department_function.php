@@ -27,7 +27,7 @@ if (isset($_GET['book_id'])) {
         $row = $result->fetch_assoc();
         $page_name = $row['dep_name']; // Example of using one of the returned columns
 
-        echo "Department Name: " . htmlspecialchars($page_name);
+//        echo "Department Name: " . htmlspecialchars($page_name);
     } else {
         echo "No department found for the provided ID.";
     }

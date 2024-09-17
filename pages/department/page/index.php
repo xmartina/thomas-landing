@@ -8,10 +8,10 @@ include_once (__DIR__ . '/../../../partials/header.php');
         <div class="row">
             <div class="col-lg-12 z-index-2 relative ">
                 <div class="title-inner center">
-                    <h1 class="title text-white mb-18">Popular Services</h1>
+                    <h1 class="title text-white mb-18"><?=$page_name?></h1>
                     <div class="title-group text-white">
-                        <a href="index.html">Home</a>
-                        <a href="#">Services</a>
+                        <a href="<?=$siteUrl?>">Home</a>
+                        <a href="<?=$siteUrl?>page"><?=$page_name?></a>
                     </div>
                 </div>
             </div>
