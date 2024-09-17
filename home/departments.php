@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="button-icon-box">
-                        <a href="pages/department/page?' . $row['book_id'] . '" class="service-link"><i class="icon-angle-downs"></i></a>
+                        <a href="pages/department/page?=' . $row['book_id'] . '" class="service-link"><i class="icon-angle-downs"></i></a>
                     </div>
                 </div>
                 <div class="icon-box1-hide">
@@ -30,10 +30,10 @@
                         </div>
                         <span class="number">' . str_pad($i, 2, '0', STR_PAD_LEFT) . '</span>
                     </div>
-                    <h3 class="title"><a href="pages/department/page?' . $row['book_id'] . '">' . htmlspecialchars($row['dep_name']) . '</a></h3>
+                    <h3 class="title"><a href="pages/department/page?=' . $row['book_id'] . '">' . htmlspecialchars($row['dep_name']) . '</a></h3>
                     <p class="des">' . htmlspecialchars($row['dep_short_dec']) . '</p>
                     <div class="button-icon-box">
-                        <a href="pages/department/page?' . $row['book_id'] . '" class="service-link">Read More<i class="icon-right-icon"></i></a>
+                        <a href="pages/department/page?=' . $row['book_id'] . '" class="service-link">Read More<i class="icon-right-icon"></i></a>
                     </div>
                 </div>
             </div>';
