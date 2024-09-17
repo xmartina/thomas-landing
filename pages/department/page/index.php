@@ -11,7 +11,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                     <h1 class="title text-white mb-18"><?=$page_name?></h1>
                     <div class="title-group text-white">
                         <a href="<?=$siteUrl?>">Home</a>
-                        <a href="<?=$siteUrl?>page?book_id=<?=$book_id?>"><?=$page_name?></a>
+                        <a href="<?=$siteUrl?>page/?book_id=<?=$book_id?>"><?=$page_name?></a>
                     </div>
                 </div>
             </div>
