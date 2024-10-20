@@ -31,9 +31,9 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="col-md-8">
                     <div class="content">
                         <p class="text-dark p-4 rounded shadow-lg" >
-                            <span class="mb-4 font-weight-bold">
+                            <div class="mb-4 font-weight-bold">
                             Sir. Peter Abuo Bisong CPA, ALGA. ASCON.
-                            </span>
+                            </div>
 
                             HOLDS A BSC FROM THE PRESTIGIOUS UNIVERSITY OF JOS NIGERIA.
 
