@@ -31,7 +31,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="col-md-8">
                     <div class="content">
                         <div class="text-dark p-4 rounded shadow-lg" >
-                            <div class="mb-4 font-weight-bold">
+                            <div class="mb-3" style="font-weight: bold;">
                             Sir. Peter Abuo Bisong CPA, ALGA. ASCON.
                             </div>
 
