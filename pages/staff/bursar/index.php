@@ -35,7 +35,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                             Sir. Peter Abuo Bisong CPA, ALGA. ASCON.
                             </div>
                             <div class="mb-2">
-                                Holds a bsc from the prestigious university of jos nigeria.
+                                Holds a bsc from the prestigious university of Jos Nigeria.
                             </div>
                             <div class="mb-2">
                                 Served the state as procurement officer, federal government as key figure in the final account unit of min. of aviation and the local government as finance administrator before
