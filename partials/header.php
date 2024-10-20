@@ -121,7 +121,7 @@
                                                         <a href="javascript:void(0);">Administration</a>
                                                         <ul>
                                                             <li><a href="javascript:void(0);">Governing Council</a></li>
-                                                            <li><a href="javascript:void(0);">Rector</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/staff/rector">Rector</a></li>
                                                             <li><a href="javascript:void(0);">Deputy Rector (Academics)</a></li>
                                                             <li><a href="javascript:void(0);">Deputy Rector (Admin)</a></li>
                                                             <li><a href="javascript:void(0);">Bursar</a></li>
