@@ -1,5 +1,5 @@
-<section class="pt-130 pb-130 skill-team-member">
-    <div class="tf-container">
+<section class="pt-130 skill-team-member" style="padding-top: 160px;">
+    <div class="container">
         <div class="row align-center">
             <div class=" col-md-12 col-lg-5">
                 <div class="skill-team-content">
