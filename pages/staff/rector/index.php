@@ -25,7 +25,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
             <div class="row quote-style">
                 <div class="col-md-4">
                     <div class="image">
-                        <img src="<?= $site_url ?>assets/school_image/staff/<?=$page_name?>.jpeg" alt="image" style="object-fit: cover;">
+                        <img src="<?= $site_url ?>assets/school_image/staff/rector.jpeg" alt="image" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-md-8">
