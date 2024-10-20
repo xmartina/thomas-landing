@@ -33,7 +33,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         <p class="text-dark p-4 rounded shadow-lg" >" Dr. Francis Mowang Ganyi is a Nigerian by birth, a Christian of Roman Catholic extraction and a socialite with strong moral values. A retired University teacher and researcher, he is a reputable Google scholar with several publications to his credit. He has a deep interest in cultural studies with a bent for African knowledge systems and values. Married to Barr. Mrs Bridget M. Ganyi, they are blessed with children. Dr. Ganyi also displays strong interpersonal relationships and leadership drive and is a powerful public speaker. "
                         </p>
                         <div class="flex-three mt-4 flex-column align-items-center name">
-                            <span style="font-size: 12px !important;"><?=$page_name?> </span><br><span>Dr Francis mowing Ganyi</span>
+                            <span style="font-size: 12px !important;text-transform: capitalize"><?=$page_name?> </span><br><span>Dr Francis mowing Ganyi</span>
                         </div>
 
 
