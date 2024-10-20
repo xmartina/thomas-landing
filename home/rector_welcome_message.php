@@ -1,4 +1,4 @@
-<section class="pt-130 skill-team-member" style="padding-top: 160px;">
+<section class="pt-130 skill-team-member" style="margin-top: 140px;">
     <div class="container">
         <div class="row align-center">
             <div class=" col-md-12 col-lg-5">
