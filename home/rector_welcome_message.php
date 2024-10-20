@@ -4,12 +4,9 @@
             <div class=" col-md-12 col-lg-5">
                 <div class="skill-team-content">
                     <div class="heading-title mb-40">
-                        <span class="sub-title texts-blue font-man">Best IT Solutions</span>
-                        <h2 class="title">We Prominent Truly
-                            IT Your solutions</h2>
-                        <p class="des">We denounce with righteous indignation and like men who are so
-                            beguiled and demoralized by the charms of pleasure of the moment, so blinded
-                            by desire foresee the pain</p>
+                        <span class="sub-title texts-blue font-man"><?= $site_name ?></span>
+                        <h2 class="title">Rector's Welcome Note</h2>
+                        <p class="des">As Rector of Thomas McCGetrick lnstitute of Technology Ogoja, l welcome all those who visit this website for information and other purposes concerning the lnstitute which prides by the mantra "Outstandingly Different." You are sure to find the difference in Thomas McCGetrick lnstitute of Technology. Feel at home with us.</p>
                     </div>
                     <div class="flex progres-wrap mb-50">
                         <div class="progress-box1 flex-three">
