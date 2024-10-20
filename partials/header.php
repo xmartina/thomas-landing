@@ -124,7 +124,7 @@
                                                             <li><a href="<?=$siteUrl?>pages/staff/rector">Rector</a></li>
                                                             <li><a href="javascript:void(0);">Deputy Rector (Academics)</a></li>
                                                             <li><a href="javascript:void(0);">Deputy Rector (Admin)</a></li>
-                                                            <li><a href="<?=$siteUrl?>pages/staff/Bursar">Bursar</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/staff/bursar">Bursar</a></li>
                                                             <li><a href="<?=$siteUrl?>pages/staff/registrar">Registrar</a></li>
                                                             <li><a href="#">Librarian</a></li>
                                                         </ul>
