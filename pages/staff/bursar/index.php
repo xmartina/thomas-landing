@@ -31,19 +31,24 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="col-md-8">
                     <div class="content">
                         <p class="text-dark p-4 rounded shadow-lg" >"
-                            <p class="font-weight-bold mb-2">
+                            <div class="font-weight-bold mb-2">
                             Sir. Peter Abuo Bisong CPA, ALGA. ASCON.
-                            <p class="mb-2">
+                        </div>
+                            <div class="mb-2">
                             HOLDS A BSC FROM THE PRESTIGIOUS UNIVERSITY OF JOS NIGERIA.
-                            <p class="mb-2">
+                            </div>
+                            <div class="mb-2">
                             SERVED THE STATE AS PROCUREMENT OFFICER, FEDERAL GOVERNMENT AS KEY FIGURE IN THE FINAL ACCOUNT UNIT OF MIN. OF AVIATION AND THE LOCAL GOVERNMENT AS FINANCE ADMINISTRATOR BEFORE RETIREMENT
-                            <p class="mb-2">
+                            </div>
+                            <div class="mb-2">
                             Married with six kids
-                            <p class="mb-2">
+                            </div>
+                            <div class="mb-2">
                             Expertise
                             Professional expertise in health, accounts.
                             Personal development in computer, Agric, family life counseling, publishing, livelihood training and job creation. "
-                        </p>
+                            </div>
+                        </div>
                         <div class="flex-three mt-4 flex-column align-items-center name">
                             <span style="font-size: 12px !important;text-transform: capitalize"><?=$page_name?> </span><br><span>Mr Peter Abuo Bisong</span>
                         </div>
