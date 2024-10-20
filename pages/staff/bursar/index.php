@@ -47,7 +47,6 @@ include_once (__DIR__ . '/../../../partials/header.php');
                             Expertise
                             Professional expertise in health, accounts.
                             Personal development in computer, Agric, family life counseling, publishing, livelihood training and job creation. "
-                            </p>
                         </p>
                         <div class="flex-three mt-4 flex-column align-items-center name">
                             <span style="font-size: 12px !important;text-transform: capitalize"><?=$page_name?> </span><br><span>Mr Peter Abuo Bisong</span>
