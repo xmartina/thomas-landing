@@ -16,7 +16,7 @@
             <div class="col-12 col-sm-6 col-lg-4">
                 <div class="skill-team-image-center">
                     <img src="<?=$site_url?>assets/school_image/staff/rector.jpeg" alt="image">
-                    <div class="text-center d-flex justify-content-center text-dark mt-3" style="font-weight: bold; line-height: .9"><div style="font-size: 12px;">Rectors
+                    <div class="text-center d-flex justify-content-center flex-row text-dark mt-3" style="font-weight: bold; line-height: .9"><div style="font-size: 12px;">Rectors
                             <hr class="py-2 w-75"></div> Dr Francis Mowing Ganyi</div>
                 </div>
             </div>
