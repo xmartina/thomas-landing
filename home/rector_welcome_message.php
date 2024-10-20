@@ -15,12 +15,12 @@
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
                 <div class="skill-team-image-center">
-                    <img src="./assets/images/team/team-skill.jpg" alt="image">
+                    <img src="<?=$site_url?>assets/school_image/staff/rector.jpeg" alt="image">
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="skill-team-image-right">
-                    <img src="./assets/images/team/team-skill1.jpg" alt="image">
+                    <img src="<?=$siteUrl?>assets/images/logo.png" alt="image">
                 </div>
             </div>
         </div>
