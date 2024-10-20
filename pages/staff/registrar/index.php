@@ -20,7 +20,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
         </div>
     </section>
 
-    <section class=" pd-section">
+    <section class=" pd-section pb-3">
     <div class="tf-container">
         <div class="row quote-style">
             <div class="col-md-4">
