@@ -32,7 +32,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="content">
                     <p class="text-dark p-4 rounded shadow-lg" >" Stephen Atah Apebende is a Priest of the Catholic Diocese of Ogoja, Nigeria. He holds a Post-Graduate Diploma in Islamology from the Pontifical Institute for Arabic and Islamic Studies, Rome, Italy. He is a well read Philosopher with a Masters Degree in Logic and a Doctorate in Epistemology of Religion from the Pontifical Lateran University, Rome, Italy. He has served both as a Lecturer for many years both at St. Joseph Major Seminary, Ikot Ekpene, Akwa Ibom and Catholic Institute of West Africa, Port Harcourt, Rivers State. As an astute administrator he has been a Vice Rector (Administration) at St. Joseph Ikot Ekpene and is currently the Registrar of Thomas McGettrick Institute of Technology Ogoja, Cross River State. "
                     </p>
-                    <div class="flex-three flex-column align-items-center name">
+                    <div class="flex-three mt-4 flex-column align-items-center name">
                         <span style="font-size: 12px !important;"><?=$page_name?> </span><br><span>Stephen Atah Apebende</span>
                     </div>
 
