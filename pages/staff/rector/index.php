@@ -1,5 +1,5 @@
 <?php
-$page_name = 'Registrar';
+$page_name = 'Rector';
 include_once (__DIR__ . '/../../../functions/staff_function.php');
 include_once (__DIR__ . '/../../../partials/header.php');
 ?>
@@ -25,12 +25,12 @@ include_once (__DIR__ . '/../../../partials/header.php');
             <div class="row quote-style">
                 <div class="col-md-4">
                     <div class="image">
-                        <img src="<?= $site_url ?>assets/school_image/staff/registrar.jpeg" alt="image" style="object-fit: cover;">
+                        <img src="<?= $site_url ?>assets/school_image/staff/<?=$page_name?>.jpeg" alt="image" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-md-8">
                     <div class="content">
-                        <p class="text-dark p-4 rounded shadow-lg" >" Stephen Atah Apebende is a Priest of the Catholic Diocese of Ogoja, Nigeria. He holds a Post-Graduate Diploma in Islamology from the Pontifical Institute for Arabic and Islamic Studies, Rome, Italy. He is a well read Philosopher with a Masters Degree in Logic and a Doctorate in Epistemology of Religion from the Pontifical Lateran University, Rome, Italy. He has served both as a Lecturer for many years both at St. Joseph Major Seminary, Ikot Ekpene, Akwa Ibom and Catholic Institute of West Africa, Port Harcourt, Rivers State. As an astute administrator he has been a Vice Rector (Administration) at St. Joseph Ikot Ekpene and is currently the Registrar of Thomas McGettrick Institute of Technology Ogoja, Cross River State. "
+                        <p class="text-dark p-4 rounded shadow-lg" >" Dr. Francis Mowang Ganyi is a Nigerian by birth, a Christian of Roman Catholic extraction and a socialite with strong moral values. A retired University teacher and researcher, he is a reputable Google scholar with several publications to his credit. He has a deep interest in cultural studies with a bent for African knowledge systems and values. Married to Barr. Mrs Bridget M. Ganyi, they are blessed with children. Dr. Ganyi also displays strong interpersonal relationships and leadership drive and is a powerful public speaker. "
                         </p>
                         <div class="flex-three mt-4 flex-column align-items-center name">
                             <span style="font-size: 12px !important;"><?=$page_name?> </span><br><span>Stephen Atah Apebende</span>
