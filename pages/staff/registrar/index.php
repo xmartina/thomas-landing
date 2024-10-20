@@ -19,6 +19,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
             </div>
         </div>
     </section>
+
     <section class=" pd-section">
     <div class="tf-container">
         <div class="row quote-style">
@@ -33,25 +34,8 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         within you the strength, the patience, and the passion to reach for the stars to
                         change the world. "
                     </p>
-                    <div class="flex-three name">
-                        <span style="font-size: 12px !important;">Rectors </span><br><span>--- Dr Francis mowing Ganyi</span>
-                        <img src="./assets/images/testimonial/name.png" alt="image">
-                    </div>
-                    <div class="flex-three image-wrap">
-                        <ul class="image-list flex-three">
-                            <li>
-                                <img src="./assets/images/avata/avt-team1.jpg" alt="Image list">
-                            </li>
-                            <li>
-                                <img src="./assets/images/avata/avt-team2.jpg" alt="Image list">
-                            </li>
-                            <li>
-                                <img src="./assets/images/avata/avt-team3.jpg" alt="Image list">
-                            </li>
-                            <li>
-                                <img src="./assets/images/avata/avt-team4.jpg" alt="Image list">
-                            </li>
-                        </ul>
+                    <div class="flex-three flex-row align-items-center name">
+                        <span style="font-size: 12px !important;"><?=$page_name?> </span><br><span>--- Stephen Atah Apebende</span>
                     </div>
 
 
