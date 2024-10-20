@@ -17,3 +17,4 @@ $footer_logo = $row["footer_logo"];
 $favicon = $row["favicon"];
 $footer_dec = $row["footer_dec"];
 $footer_copyright = $row["footer_copyright"];
+$site_url = $siteUrl;
