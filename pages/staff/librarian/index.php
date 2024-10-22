@@ -1,10 +1,10 @@
 <?php
 $page_name = "LIBRARIAN";
-include_once (__DIR__ . '/../../../functions/about_function.php');
-include_once (__DIR__ . '/../../../partials/header.php');
+include_once(__DIR__ . '/../../../functions/about_function.php');
+include_once(__DIR__ . '/../../../partials/header.php');
 ?>
 <main id="main">
-    <?php include_once (__DIR__ . '/../../../partials/breadcrumb.php'); ?>
+    <?php include_once(__DIR__ . '/../../../partials/breadcrumb.php'); ?>
 
     <section class="blog-single pd-section">
         <div class="tf-container">
@@ -12,32 +12,32 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="col-lg-8 col-12">
                     <article class="side-blog-single mb-50 relative">
                         <h3 class="entry-title mb-18">
-                            <?=$page_name?>
+                            <?= $page_name ?>
                         </h3>
                         <div class="row">
                             <div class="col-lg-3">
-                                <img src="<?=$site_url?>assets/school_image/staff/rector.jpeg" alt="image">
+                                <img src="<?= $site_url ?>assets/school_image/staff/rector.jpeg" alt="image">
                             </div>
                             <div class="col-lg-9">
                                 <div class="widget rounded p-5">
                                     <p class="widget-banner relative">
-                                        <p class="description mb-10 ">
-                                            <b>NAME:</b> Mac Ubi Lbiang
-                                        </p>
-                                        <p class="description mb-10">
-                                            <b>FROM:</b> Ugep, Cross River State
-                                        </p>
-                                        <p class="description mb-10">
-                                            <b>Schools Attended:</b> Community Secondary school Ugep,
-                                            <br>University of Calabar, Nigeria Institute of management lkeja,Lagos.
-                                        </p>
-                                        <p class="description mb-10">
-                                           <b> Working Experience: </b>Worked with cross river state as senior librarian for 35 years
-                                            <br />Lecture in temple gate
-                                            <br> lecture in bible school Bekwara
-                                            <br> lecture in Nigeria Institute of Management
-                                        </p>
-                                    </div>
+                                    <p class="description mb-10 ">
+                                        <b>NAME:</b> Mac Ubi Lbiang
+                                    </p>
+                                    <p class="description mb-10">
+                                        <b>FROM:</b> Ugep, Cross River State
+                                    </p>
+                                    <p class="description mb-10">
+                                        <b>Schools Attended:</b> Community Secondary school Ugep,
+                                        <br>University of Calabar, Nigeria Institute of management lkeja,Lagos.
+                                    </p>
+                                    <p class="description mb-10">
+                                        <b> Working Experience: </b>Worked with cross river state as senior librarian
+                                        for 35 years
+                                        <br/>Lecture in temple gate
+                                        <br> lecture in bible school Bekwara
+                                        <br> lecture in Nigeria Institute of Management
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -77,13 +77,13 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         </div>
                     </article>
                 </div>
-                <?php include_once (__DIR__ . '/../../../partials/side_bar.php');  ?>
+                <?php include_once(__DIR__ . '/../../../partials/side_bar.php'); ?>
             </div>
         </div>
     </section>
 
 </main>
 <?php
-include_once (__DIR__ . '/../../../partials/footer.php');
+include_once(__DIR__ . '/../../../partials/footer.php');
 ?>
 
