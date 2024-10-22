@@ -130,7 +130,7 @@
                                                     <li class="dropdown2">
                                                         <a href="javascript:void(0);">About Us</a>
                                                         <ul>
-                                                            <li><a href="<?=$siteUrl?>pages/about/Rector_welcome_message">Rector’s Welcome Message</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/about/rector_welcome_message">Rector’s Welcome Message</a></li>
                                                             <li><a href="<?=$siteUrl?>pages/about/history">History</a></li>
                                                             <li><a href="<?=$siteUrl?>pages/about/vision_and_mission">Vision and Mission</a></li>
                                                             <li><a href="<?=$siteUrl?>pages/about/gallery">Gallery</a></li>
