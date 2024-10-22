@@ -68,7 +68,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         <div class="widget mb-50">
                             <h4 class="title-blog bb-blog mb-30">Departments</h4>
                             <ul class="category-blog">
-                                <?php list_all_department($dep_result) ?>
+                                <?php list_all_department($dep_result, $site_url) ?>
                             </ul>
                         </div>
                         <div class="widget">
