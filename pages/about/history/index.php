@@ -66,14 +66,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="col-lg-4 col-12">
                     <div class="sidebar-blog">
                         <div class="widget mb-50">
-                            <h4 class="title-blog">Search </h4>
-                            <form action="/" class="search-form-blog relative">
-                                <input type="search" placeholder="Keywords" class="input-search">
-                                <button type="button"><i class="icon-search2"></i></button>
-                            </form>
-                        </div>
-                        <div class="widget mb-50">
-                            <h4 class="title-blog bb-blog mb-30">Categories</h4>
+                            <h4 class="title-blog bb-blog mb-30">Departments</h4>
                             <ul class="category-blog">
                                 <li>
                                     <a href="#" class="flex-two">
@@ -81,116 +74,22 @@ include_once (__DIR__ . '/../../../partials/header.php');
                                         <i class="icon-arrow-rights"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="flex-two">
-                                        <span>Cyber Security</span>
-                                        <i class="icon-arrow-rights"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex-two">
-                                        <span>Product Design</span>
-                                        <i class="icon-arrow-rights"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex-two">
-                                        <span>Website Development</span>
-                                        <i class="icon-arrow-rights"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex-two">
-                                        <span>Data Security</span>
-                                        <i class="icon-arrow-rights"></i>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                        <div class="widget mb-50">
-                            <h4 class="title-blog bb-blog mb-30">Recent News</h4>
-
-                            <div class="widget-recent-post">
-                                <div class="recent-post-item flex-three mb-30">
-                                    <a href="#" class="image">
-                                        <img src="./assets/images/blog/recent1.jpg" alt="image">
-                                    </a>
-                                    <div class="content">
-                                        <span class="date font-man">October 25, 2023</span>
-                                        <h5 class="title"><a href="#">IT Service Studies Accelerating Business Fly Success Tech</a></h5>
-                                    </div>
-                                </div>
-                                <div class="recent-post-item flex-three mb-30">
-                                    <a href="#" class="image">
-                                        <img src="./assets/images/blog/recent2.jpg" alt="image">
-                                    </a>
-                                    <div class="content">
-                                        <span class="date font-man">October 25, 2023</span>
-                                        <h5 class="title"><a href="#">IT Service Studies Accelerating Business Fly Success Tech</a></h5>
-                                    </div>
-                                </div>
-                                <div class="recent-post-item flex-three">
-                                    <a href="#" class="image">
-                                        <img src="./assets/images/blog/recent3.jpg" alt="image">
-                                    </a>
-                                    <div class="content">
-                                        <span class="date font-man">October 25, 2023</span>
-                                        <h5 class="title"><a href="#">IT Service Studies Accelerating Business Fly Success Tech</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="widget mb-50">
-                            <h4 class="title-blog bb-blog mb-30">Popular Tags</h4>
-                            <ul class="tag-blog">
-                                <li>
-                                    <a href="#" class="font-man active">IT Design</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Cyber Security</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Branding</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Software</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Data Science</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Apps</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Management</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="font-man">Web Development</a>
-                                </li>
                             </ul>
                         </div>
                         <div class="widget">
                             <div class="widget-banner relative">
                                 <div class="z-index-2 relative">
-                                    <h2 class="title-banner text-white fw-300">Looking For Professional IT
-                                        <span class="agency fw-600">Solutions Agency</span>
+                                    <h2 class="title-banner text-white fw-300">Join the Thomas McGettrick Institute of Technology
+                                        <span class="agency fw-600">for Your Future in Technology</span>
                                     </h2>
-                                    <p class="des text-white font-man">Sed perspiciatis omniste voluptateme
-                                        accus antiume doloremque lauda</p>
+                                    <p class="des text-white font-man">Take the next step in your education and explore innovative programs in IT, Engineering, and more.</p>
                                     <div class="btn-wrap">
-                                        <a href="#" class="more-link">Read More <i class="icon-right-icon"></i></a>
+                                        <a href="/admissions" class="more-link">Learn More About Admissions <i class="icon-right-icon"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
         </div>
