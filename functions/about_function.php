@@ -42,6 +42,7 @@ function get_gallery($gallery_result, $site_url) {
             background-size:cover;
             background-position:center;
             background-repeat:no-repeat;
+            cursor:pointer;
         }
     </style>
 <div class="col-lg-4">
