@@ -130,10 +130,10 @@
                                                     <li class="dropdown2">
                                                         <a href="javascript:void(0);">About Us</a>
                                                         <ul>
-                                                            <li><a href="javascript:void(0);">Rector’s Welcome Message</a></li>
-                                                            <li><a href="javascript:void(0);">History</a></li>
-                                                            <li><a href="javascript:void(0);">Vision and Mission</a></li>
-                                                            <li><a href="javascript:void(0);">Gallery</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/about/Rector_welcome_message">Rector’s Welcome Message</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/about/history">History</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/about/vision_and_mission">Vision and Mission</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/about/gallery">Gallery</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="dropdown2">
@@ -161,10 +161,10 @@
                                                     <li class="dropdown2">
                                                         <a href="javascript:void(0);">Students</a>
                                                         <ul>
-                                                            <li><a href="javascript:void(0);">ND/HND Application Form</a></li>
-                                                            <li><a href="javascript:void(0);">Check Admissions Status</a></li>
-                                                            <li><a href="javascript:void(0);">Admissions Screening Portal</a></li>
-                                                            <li><a href="javascript:void(0);">E-Library Portal</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/student">ND/HND Application Form</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/student">Check Admissions Status</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/student">Admissions Screening Portal</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/student">E-Library Portal</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="dropdown2">
