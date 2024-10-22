@@ -7,7 +7,9 @@ if (strpos($currentUrl, 'about') !== false) {
     $lastPart = end($parts);  // Get the last element of the array
     $breadcrumb_link = 'about/'.$lastPart;  // Return the current URL if 'about' is found
 } elseif(strpos($currentUrl, 'staff') !== false) {
-    $breadcrumb_link = 'staff/'.$page_name;
+    $parts = explode('/', trim($currentUrl, '/')); // trim removes trailing slash
+    $lastPart = end($parts);  // Get the last element of the array
+    $breadcrumb_link = 'staff/'.$lastPart;
 }
 ?>
 
