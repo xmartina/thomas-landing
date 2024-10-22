@@ -1,5 +1,5 @@
 <?php
-$page_name = "LIBRARIAN";
+$page_name = "School Librarian";
 include_once(__DIR__ . '/../../../functions/about_function.php');
 include_once(__DIR__ . '/../../../partials/header.php');
 ?>
