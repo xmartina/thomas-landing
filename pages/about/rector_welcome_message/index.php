@@ -15,10 +15,10 @@ include_once (__DIR__ . '/../../../partials/header.php');
                             <?=$page_name?>
                         </h3>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <img src="<?=$site_url?>assets/school_image/staff/rector.jpeg" alt="image">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-9">
                                 <p class="description mb-40">
                                     As Rector of Thomas McCGetrick lnstitute of Technology Ogoja, l welcome all those who visit this website for information and other purposes concerning the lnstitute which prides by the mantra "Outstandingly Different." You are sure to find the difference in Thomas McCGetrick lnstitute of Technology. Feel at home with us.
                                 </p>
