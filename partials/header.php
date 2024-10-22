@@ -173,10 +173,6 @@
                                                     <li class="dropdown2">
                                                         <a href="javascript:void(0);">Staff</a>
                                                         <ul>
-                                                            <li><a href="javascript:void(0);">APER FORM</a></li>
-                                                            <li><a href="javascript:void(0);">ERP Login</a></li>
-                                                            <li><a href="javascript:void(0);">EMAIL</a></li>
-                                                            <li><a href="javascript:void(0);">FPNO DOCUMENT MANAGEMENT SYSTEM</a></li>
                                                             <li><a href="javascript:void(0);">STAFF PORTAL</a></li>
                                                         </ul>
                                                     </li>
