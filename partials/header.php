@@ -19,6 +19,15 @@
 
     <link rel="stylesheet" href="<?=$siteUrl?>app/css/adjustment.css">
     <link rel="stylesheet" href="<?=$siteUrl?>app/css/adjustment.scss">
+    <style>
+        .school_gallery{
+            height:inherit;
+            width:inherit;
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+        }
+    </style>
 
 </head>
 

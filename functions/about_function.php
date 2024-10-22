@@ -22,3 +22,25 @@ function list_all_department($dep_result, $site_url)
         }
     }
 }
+
+
+//Get All School Gallery
+$gallery_sql = "SELECT * FROM school_gallery ORDER BY RAND()";
+$gallery_result = $conn->query($gallery_sql);
+
+function get_gallery($gallery_result, $site_url) {
+    if ($gallery_result->num_rows > 0) {
+        while ($row = $gallery_result->fetch_assoc()) {
+            $img_name = $row['img_name'];  // Assuming 'img_name' is a column in your 'school_gallery' table
+            $img_title = $row['img_title'];  // Assuming 'img_title' is a column in your 'school_gallery' table
+
+            echo '<div class="col-lg-4">
+                    <div class="school_gallery" style="background-image: url(\''. $site_url .'assets/school_image/gallery/'. $img_name .'\');">
+                    <span class="sr-only">'. $img_title .'</span>
+                    </div>
+                  </div>';
+        }
+    } else {
+        echo 'No images found in the gallery.';
+    }
+}
