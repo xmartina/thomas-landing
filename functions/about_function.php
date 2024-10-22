@@ -46,7 +46,6 @@ function get_gallery($gallery_result, $site_url) {
     </style>
 <div class="col-lg-4">
                     <div class="w-100 school_gallery" style="background-image: url(\''. $site_url .'assets/school_image/gallery/'. $img_name .'\');">
-                    <span class="sr-only">'. $img_title .'</span>
                     </div>
                   </div>';
         }
