@@ -34,6 +34,7 @@
 
             </div>
             <div class="footer-main-item menu-services wow fadeInUpSmall" data-wow-delay=".3s">
+                <!--
                 <h4 class="title-footer2 ">IT Services</h4>
                 <ul class="menu-service">
                     <li>
@@ -52,9 +53,10 @@
                         <a href="#"><i class="icon-right-icon"></i>Cyber Security</a>
                     </li>
 
-                </ul>
+                </ul> -->
             </div>
             <div class="footer-main-item menu-suport wow fadeInUpSmall" data-wow-delay=".4s">
+                <!--
                 <h4 class="title-footer2 ">Support</h4>
                 <ul class="menu-service">
                     <li>
@@ -73,9 +75,10 @@
                         <a href="#"><i class="icon-right-icon"></i>Cookies Policy</a>
                     </li>
 
-                </ul>
+                </ul> -->
             </div>
             <div class="footer-main-item newsletter wow fadeInUpSmall" data-wow-delay=".5s">
+                <!--
                 <h4 class="title-footer2 ">Newsletter</h4>
                 <p class="mb-20">Subscribe our newsletter to get more updates</p>
                 <form action="/" class="form-footer2 relative flex-two" id="subscribe-form" method="post" accept-charset="utf-8" data-mailchimp="true">
@@ -84,7 +87,7 @@
                     <button type="submit" id="subscribe-button">Sign Up <i class="icon-right-icon"></i></button>
                 </form>
                 <p class="privacy-policy">By subscribing, you’re accept <a href="#">Privacy Policy</a>
-                </p>
+                </p> -->
             </div>
         </div>
 
