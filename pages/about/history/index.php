@@ -27,47 +27,18 @@ include_once (__DIR__ . '/../../../partials/header.php');
                             It has successfully scaled through three out of the four mandatory stages for approval by the National Board for Technical Education (NBTE) as a Polytechnic in Nigeria. It is currently awaiting the final Resource Visit by the NBTE for the accreditation of 11 take-off programmes. These are: Electrical/Electronics Engineering, Computer Engineering Technology, Computer Science, Statistics, Nursing Sciences, Health Information Management, Medical Laboratory Technology, Community Health, Pharmaceutical Technology, Accountancy, Business Administration and Public Administration. Upon accreditation, the Institute shall have the authority and capacity to award the National Diploma, and subsequently the Higher National Diploma to her grandaunts.
 
                         </p>
-                        <img src="./assets/images/blog/blog-details.jpg" alt="Image blog" class="mb-30">
-                        <p class="description mb-40">Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                            sed quia non numquam eius modi tempora incidunte
-                        </p>
-                        <div class="quote-blog bg-2 mb-50">
-                            <blockquote class="flex">
-                                <div class="icon">
-                                    <i class="icon-icon-quote"></i>
-                                </div>
-                                <div class="content">
-                                    <h3 class="title-quote">Handling Mounting And Unmounting Of Given
-                                        Navigation Routes In React Native</h3>
-                                    <span class="name relative">Kevin C. Young</span>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <p class="description mb-50">
-                            No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself because it is painse
-                        </p>
-                        <img src="./assets/images/blog/blog-details2.jpg" alt="Image blog" class="mb-30">
-                        <h3 class="entry-title mb-15">
-                            Conference For New Design
-                        </h3>
-                        <p class="description mb-50">
-                            At vero eos et accusamus etodio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-                        </p>
                         <div class="tag-share-blog pb-50 mb-80 bb-blog">
                             <div class="tag-blog-widget flex-three">
                                 <span class="tag-share">Tags</span>
                                 <ul class="tag-blog">
                                     <li>
-                                        <a href="#" class="font-man active">IT Design</a>
+                                        <a href="#" class="font-man active">TMIT</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="font-man">Cyber Security</a>
+                                        <a href="#" class="font-man">History</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="font-man">Branding</a>
+                                        <a href="#" class="font-man">About</a>
                                     </li>
                                 </ul>
                             </div>
@@ -91,123 +62,6 @@ include_once (__DIR__ . '/../../../partials/header.php');
                             </div>
                         </div>
                     </article>
-                    <div class="author-blog flex-three bg-2 mb-80">
-                        <div class="image">
-                            <img src="./assets/images/avata/avt-profile.jpg" alt="image">
-                        </div>
-                        <div class="content">
-                            <h4>Richard M. Fudge</h4>
-                            <p class="color-text">We denounce with righteous indignation and dislike men who are so beguiled
-                                and demoralized by the charms of pleasure of the moment blinded
-                            </p>
-                            <ul class="social-profile flex-three">
-                                <li>
-                                    <a href="#" class="flex-five"><i class="icon-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex-five"><i class="icon-twiter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex-five"><i class="icon-ins"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="flex-five"><i class="icon-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="post-blog flex-two mb-80">
-                        <div class="post-blog-item flex-three">
-                            <div class="image-post left">
-                                <img src="./assets/images/blog/bl-2.jpg" alt="">
-                            </div>
-                            <div class="content-post">
-                                <span class="date color-text font-man">October 25, 2023</span>
-                                <h5 class="title"><a href="#">Navigating the Landscape of Our Design Endeavors</a></h5>
-                            </div>
-                        </div>
-                        <div class="post-blog-item flex-six">
-                            <div class="content-post text-end">
-                                <span class="date color-text font-man">October 25, 2023</span>
-                                <h5 class="title"><a href="#">Delving into the Aesthetics and Functionality of Our Design</a></h5>
-                            </div>
-                            <div class="image-post right">
-                                <img src="./assets/images/blog/bl-1.jpg" alt="">
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                    <div class="comment-blog mb-80">
-                        <h3 class="title mb-20">Comments</h3>
-                        <ul class="comment">
-                            <li>
-                                <div class="comment-item flex mb-30">
-                                    <div class="comment-image">
-                                        <img src="./assets/images/avata/cmt1.jpg" alt="image">
-                                    </div>
-                                    <div class="comment-content">
-                                        <span class="name">William L. Jackson</span>
-                                        <span class="date color-text font-man">Sep 25, 2023</span>
-                                        <p class="des font-man color-text">We denounce with righteous indignation and
-                                            dislike men who are so beguiled and demoralized by the
-                                            charms of pleasure of the moment so blinded
-                                        </p>
-                                        <a href="#" class="repply-link">Reply <i class="icon-right"></i></a>
-
-                                    </div>
-                                </div>
-                                <ul class="comment comment-repply">
-                                    <li>
-                                        <div class="comment-item flex ">
-                                            <div class="comment-image">
-                                                <img src="./assets/images/avata/cmt2.jpg" alt="image">
-                                            </div>
-                                            <div class="comment-content">
-                                                <span class="name">James M. Stovall</span>
-                                                <span class="date color-text font-man">Sep 25, 2023</span>
-                                                <p class="des font-man color-text">Pleasure is to be welcomed and every pain avoided in certain circumstances owing to the claims of duty or the obligations business frequently
-                                                </p>
-                                                <a href="#" class="repply-link">Reply <i class="icon-right"></i></a>
-
-                                            </div>
-                                        </div>
-
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="comment-form bg-2">
-                        <h3 class="title bb-blog mb-30"> Leave a Reply</h3>
-                        <form action="/" id="form-comment-blog">
-                            <div class="row">
-                                <div class="col-md-6 mb-20">
-                                    <label class="mb-20">Full Name</label>
-                                    <input type="text" name="name" class="input-group" placeholder="Enter your name">
-                                </div>
-                                <div class="col-md-6 mb-20">
-                                    <label class="mb-20">Email Address</label>
-                                    <input type="email" name="email" class="input-group" placeholder="Enter your email">
-                                </div>
-                                <div class="col-lg-12 mb-20">
-                                    <label class="mb-20">Website</label>
-                                    <input type="url" name="website" class="input-group" placeholder="Enter your website">
-                                </div>
-                                <div class="col-lg-12 mb-20">
-                                    <label class="mb-20">Comment</label>
-                                    <textarea  name="comment" placeholder="Write your comment" rows="4" cols="50"></textarea>
-                                </div>
-                                <div class="col-lg-12">
-                                    <button type="submit">Send Comments <i class="icon-right"></i></button>
-                                </div>
-                            </div>
-
-                        </form>
-
-                    </div>
                 </div>
                 <div class="col-lg-4 col-12">
                     <div class="sidebar-blog">
