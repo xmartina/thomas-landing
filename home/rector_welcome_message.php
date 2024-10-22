@@ -9,7 +9,7 @@
                         <p class="des">As Rector of Thomas McCGetrick lnstitute of Technology Ogoja, l welcome all those who visit this website for information and other purposes concerning the lnstitute which prides by the mantra "Outstandingly Different." You are sure to find the difference in Thomas McCGetrick lnstitute of Technology. Feel at home with us.</p>
                     </div>
                     <div class="btn-wrap-about flex-three">
-                        <a href="#" class="button-src">Read More <i class="icon-angle-right"></i></a>
+                        <a href="<?=$site_url?>pages/about/rector_welcome_message" class="button-src">Read More <i class="icon-angle-right"></i></a>
                     </div>
                 </div>
             </div>
