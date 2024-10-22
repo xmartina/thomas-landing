@@ -14,19 +14,16 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         <h3 class="entry-title mb-18">
                             <?=$page_name?>
                         </h3>
-                        <p class="description mb-40">
-                            As Rector of Thomas McCGetrick lnstitute of Technology Ogoja, l welcome all those who visit this website for information and other purposes concerning the lnstitute which prides by the mantra "Outstandingly Different." You are sure to find the difference in Thomas McCGetrick lnstitute of Technology. Feel at home with us.
-                        </p>
-                        <p class="description mb-40">
-                            As part of the events to mark the Centenary Year of the arrival of the Catholic Faith in the Old Ogoja Region in May 2021, the Bishop of Ogoja, Most Rev. Donatus Edet Akpan took this educational stride a notch higher by founding the Thomas McGettrick Institute of Technology, Ogoja. This well conceived idea of our dear Bishop was meant not just to be an institution of theoretical information dissemination and conceptual knowledge transfer but a fertile ground for rigorous training and transformation of the thousands of graduands from the myriads of Secondary Schools in Northern Cross River State into highly skilled, adequately qualified, well motivated, and self-employable young adults.
-                        </p>
-                        <p class="description mb-40">
-                            Being a realist that he is and not desirous of building castles in the sky, the Bishop and Proprietor of this Institute set out to focus on the training of the basic middle cadre skill workers in the areas of health care, Engineering Technology, Skilled Artisans, as well as Management & Financial Studies. The School, which through the Bishop’s Power of Attorney currently occupies over 15 hectares of land which were formally allotted to the now defunct TTC Ogoja, has so far secured the approval of the Cross River State Government to operate, has been duly registered with the Corporate Affairs Commission as a legal entity in law limited by guarantee.
-                        </p>
-                        <p class="description mb-40">
-                            It has successfully scaled through three out of the four mandatory stages for approval by the National Board for Technical Education (NBTE) as a Polytechnic in Nigeria. It is currently awaiting the final Resource Visit by the NBTE for the accreditation of 11 take-off programmes. These are: Electrical/Electronics Engineering, Computer Engineering Technology, Computer Science, Statistics, Nursing Sciences, Health Information Management, Medical Laboratory Technology, Community Health, Pharmaceutical Technology, Accountancy, Business Administration and Public Administration. Upon accreditation, the Institute shall have the authority and capacity to award the National Diploma, and subsequently the Higher National Diploma to her grandaunts.
-
-                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="<?=$site_url?>assets/school_image/staff/rector.jpeg" alt="image">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="description mb-40">
+                                    As Rector of Thomas McCGetrick lnstitute of Technology Ogoja, l welcome all those who visit this website for information and other purposes concerning the lnstitute which prides by the mantra "Outstandingly Different." You are sure to find the difference in Thomas McCGetrick lnstitute of Technology. Feel at home with us.
+                                </p>
+                            </div>
+                        </div>
                         <div class="tag-share-blog pb-50 mb-80 bb-blog">
                             <div class="tag-blog-widget flex-three">
                                 <span class="tag-share">Tags</span>
