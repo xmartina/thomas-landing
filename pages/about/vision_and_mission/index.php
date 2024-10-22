@@ -9,7 +9,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
     <section>
         <div class="tf-container full">
             <div class="row feature-about-wrap">
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <div class="tf-icon-box">
                         <div class="icon">
                             <i class="icon-expert"></i>
@@ -19,7 +19,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <div class="tf-icon-box">
                         <div class="icon">
                             <i class="icon-hands"></i>
@@ -29,7 +29,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <div class="tf-icon-box">
                         <div class="icon">
                             <i class="icon-ownership"></i>
