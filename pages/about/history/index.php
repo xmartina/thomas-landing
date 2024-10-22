@@ -84,7 +84,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                                     </h2>
                                     <p class="des text-white font-man">Take the next step in your education and explore innovative programs in IT, Engineering, and more.</p>
                                     <div class="btn-wrap">
-                                        <a href="/admissions" class="more-link">Learn More About Admissions <i class="icon-right-icon"></i></a>
+                                        <a href="/admissions" class="more-link">Learn More <i class="icon-right-icon"></i></a>
                                     </div>
                                 </div>
                             </div>
