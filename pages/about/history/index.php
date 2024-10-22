@@ -68,12 +68,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         <div class="widget mb-50">
                             <h4 class="title-blog bb-blog mb-30">Departments</h4>
                             <ul class="category-blog">
-                                <li>
-                                    <a href="#" class="flex-two">
-                                        <span>IT Management Solutions</span>
-                                        <i class="icon-arrow-rights"></i>
-                                    </a>
-                                </li>
+                                <?php list_all_department($dep_result) ?>
                             </ul>
                         </div>
                         <div class="widget">
