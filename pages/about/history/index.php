@@ -12,7 +12,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                 <div class="col-lg-8 col-12">
                     <article class="side-blog-single mb-50 relative">
                         <h3 class="entry-title mb-18">
-                            THE BIRTH OF <?=$site_name?> OGOJA
+                            The Birth Of <?=$site_name?> Ogoja
                         </h3>
                         <p class="description mb-40">
                             Education through the school system has been the bedrock and tool through which the Catholic Church has carried out her evangelizing mission since her arrival in the Ogoja region in May 1921. Several Nursery, Primary, and Secondary schools have been established over the years.
