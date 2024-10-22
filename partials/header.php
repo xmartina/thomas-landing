@@ -164,10 +164,7 @@
                                                             <li><a href="javascript:void(0);">ND/HND Application Form</a></li>
                                                             <li><a href="javascript:void(0);">Check Admissions Status</a></li>
                                                             <li><a href="javascript:void(0);">Admissions Screening Portal</a></li>
-                                                            <li><a href="javascript:void(0);">ID Card Portal</a></li>
                                                             <li><a href="javascript:void(0);">E-Library Portal</a></li>
-                                                            <li><a href="javascript:void(0);">Portal Login</a></li>
-                                                            <li><a href="javascript:void(0);">HND Acceptance Fee Payment</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="dropdown2">
