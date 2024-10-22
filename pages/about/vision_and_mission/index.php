@@ -6,30 +6,66 @@ include_once (__DIR__ . '/../../../partials/header.php');
 <main id="main">
     <?php include_once (__DIR__ . '/../../../partials/breadcrumb.php'); ?>
 
-    <section class=" pd-section pb-3">
-        <div class="tf-container">
-            <div class="row quote-style">
-                <div class="col-md-4">
-                    <div class="image">
-                        <img src="<?= $site_url ?>assets/school_image/staff/rector.jpeg" alt="image" style="object-fit: cover;">
+    <section>
+        <div class="tf-container full">
+            <div class="row feature-about-wrap">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="tf-icon-box">
+                        <div class="icon">
+                            <i class="icon-expert"></i>
+                        </div>
+                        <h2 class="title"><a href="#">VISION</a></h2>
+                        <p class="des">To be a catalyst of Technological Revolution in Contemporary Nigeria
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="content">
-                        <p class="text-dark p-4 rounded shadow-lg" >" Dr. Francis Mowang Ganyi is a Nigerian by birth, a Christian of Roman Catholic extraction and a socialite with strong moral values. A retired University teacher and researcher, he is a reputable Google scholar with several publications to his credit. He has a deep interest in cultural studies with a bent for African knowledge systems and values. Married to Barr. Mrs Bridget M. Ganyi, they are blessed with children. Dr. Ganyi also displays strong interpersonal relationships and leadership drive and is a powerful public speaker. "
-                        </p>
-                        <div class="flex-three mt-4 flex-column align-items-center name">
-                            <span style="font-size: 12px !important;text-transform: capitalize"><?=$page_name?> </span><br><span>Dr Francis Mowing Ganyi</span>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="tf-icon-box">
+                        <div class="icon">
+                            <i class="icon-hands"></i>
                         </div>
-
-
+                        <h2 class="title"><a href="#">MISSION</a></h2>
+                        <p class="des">To fan into flames and tap into the latent technological drives in the Nigerian youth for a vibrant and self reliant society.
+                        </p>
                     </div>
-
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="tf-icon-box">
+                        <div class="icon">
+                            <i class="icon-ownership"></i>
+                        </div>
+                        <h2 class="title"><a href="#">VALUES</a></h2>
+                        <p class="des">Dedication, Hard work, Loyalty, Discipline, Integrity, Prudence and Accountability
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="tf-icon-box">
+                        <div class="icon">
+                            <i class="icon-wrench"></i>
+                        </div>
+                        <h2 class="title"><a href="#">AIMS AND OBJECTIVES OF THE INSTITUTE</a></h2>
+                        <div class="des">The functions of the Institute shall include the following-
+                            <ul>
+                            <li>
+                                (a)	To provide courses of instruction, training and research in the fields of Engineering Technology, Health Technology, Management Technology, and such other fields of learning as the Institute may from time to time decide
+                            </li>
+                            <li>
+                                (b)	To organize conferences, seminars, studies and other activities relating to Engineering, Health,
+                                Technology, management technology, and other fields of learning specified in paragraph (a) above.
+                            </li>
+                            <li>
+                                (c)To hold examinations and award certificates, diplomas, and other academic distinctions to persons who have pursed any course of study approved by the Institute
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </section>
+
 </main>
 <?php
 include_once (__DIR__ . '/../../../partials/footer.php');
