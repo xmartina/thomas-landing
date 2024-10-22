@@ -1,5 +1,5 @@
 <?php
-$page_name = 'Rector';
+$page_name = "Rector's Welcome Message";
 include_once (__DIR__ . '/../../../functions/about_function.php');
 include_once (__DIR__ . '/../../../partials/header.php');
 ?>
