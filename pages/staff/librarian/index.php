@@ -21,17 +21,17 @@ include_once (__DIR__ . '/../../../partials/header.php');
                             <div class="col-lg-9">
                                 <div class="widget rounded p-5">
                                     <p class="widget-banner relative">
-                                        <p class="description mb-40 ">
+                                        <p class="description mb-10 ">
                                             <b>NAME:</b> Mac Ubi Lbiang
                                         </p>
-                                        <p class="description mb-40">
+                                        <p class="description mb-10">
                                             <b>FROM:</b> Ugep, Cross River State
                                         </p>
-                                        <p class="description mb-40">
-                                            <b>Schools Attended:</b> <hr />Community Secondary school Ugep,
-                                            <br /><hr />University of Calabar, Nigeria Institute of management lkeja,Lagos.
+                                        <p class="description mb-10">
+                                            <b>Schools Attended:</b> Community Secondary school Ugep,
+                                            <br>University of Calabar, Nigeria Institute of management lkeja,Lagos.
                                         </p>
-                                        <p class="description mb-40">
+                                        <p class="description mb-10">
                                            <b> Working Experience: </b>Worked with cross river state as senior librarian for 35 years
                                             <br />Lecture in temple gate
                                             <br> lecture in bible school Bekwara
