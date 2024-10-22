@@ -40,23 +40,23 @@ include_once (__DIR__ . '/../../../partials/header.php');
                     </div>
                 </div>
             </div>
-            <div class="row feature-about-wrap mt-3">
+            <div class="row feature-about-wrap mt-4">
                 <div class="col-12 col-sm-6 offset-sm-3 offset-lg-3 col-lg-6">
                     <div class="tf-icon-box">
                         <div class="icon">
                             <i class="icon-wrench"></i>
                         </div>
                         <h2 class="title"><a href="#">AIMS AND OBJECTIVES OF THE INSTITUTE</a></h2>
-                        <p class="des">The functions of the Institute shall include the following-
+                        <p class="des mb-2">The functions of the Institute shall include the following-
                         </p>
-                        <p class="des">
+                        <p class="des mb-2">
                                 (a)	To provide courses of instruction, training and research in the fields of Engineering Technology, Health Technology, Management Technology, and such other fields of learning as the Institute may from time to time decide
                         </p>
-                        <p class="des">
+                        <p class="des mb-2 ">
                                 (b)	To organize conferences, seminars, studies and other activities relating to Engineering, Health,
                                 Technology, management technology, and other fields of learning specified in paragraph (a) above.
                         </p>
-                        <p class="des">
+                        <p class="des mb-2">
                                 (c)To hold examinations and award certificates, diplomas, and other academic distinctions to persons who have pursed any course of study approved by the Institute
                         </p>
                     </div>
