@@ -124,7 +124,7 @@
                                                             <li><a href="<?=$siteUrl?>pages/staff/rector">Rector</a></li>
                                                             <li><a href="<?=$siteUrl?>pages/staff/bursar">Bursar</a></li>
                                                             <li><a href="<?=$siteUrl?>pages/staff/registrar">Registrar</a></li>
-                                                            <li><a href="#">Librarian</a></li>
+                                                            <li><a href="<?=$siteUrl?>pages/staff/librarian">Librarian</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="dropdown2">
