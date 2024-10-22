@@ -16,7 +16,7 @@ include_once(__DIR__ . '/../../../partials/header.php');
                         </h3>
                         <div class="row">
                             <div class="col-lg-3">
-                                <img src="<?= $site_url ?>assets/school_image/staff/rector.jpeg" alt="image">
+                                <img src="<?= $site_url ?>assets/school_image/staff/librarian.jpeg" alt="image">
                             </div>
                             <div class="col-lg-9">
                                 <div class="widget rounded p-5">
