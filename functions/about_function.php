@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
 $dep_sql = "SELECT * FROM departments ORDER BY RAND()";
 $dep_result = $conn->query($dep_sql);
 
-function list_all_department($dep_result)
+function list_all_department($dep_result, $site_url)
 {
     if ($dep_result->num_rows > 0) {
         $i = 1; // Initialize counter for numbering
