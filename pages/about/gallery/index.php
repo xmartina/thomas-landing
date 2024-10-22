@@ -7,7 +7,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
         <?php include_once (__DIR__ . '/../../../partials/breadcrumb.php'); ?>
 
         <div class="row">
-            <?php get_gallery($gallery_result, $img_name, $site_url, $img_title) ?>
+            <?php get_gallery($gallery_result, $site_url) ?>
         </div>
     </main>
 <?php
