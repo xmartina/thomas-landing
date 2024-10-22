@@ -5,9 +5,10 @@ include_once (__DIR__ . '/../../../partials/header.php');
 ?>
     <main id="main">
         <?php include_once (__DIR__ . '/../../../partials/breadcrumb.php'); ?>
-
-        <div class="row">
-            <?php get_gallery($gallery_result, $site_url) ?>
+        <div class="container">
+            <div class="row">
+                <?php get_gallery($gallery_result, $site_url) ?>
+            </div>
         </div>
     </main>
 <?php
