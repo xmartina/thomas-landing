@@ -35,7 +35,7 @@ function get_gallery($gallery_result, $site_url) {
             $img_title = $row['img_title'];  // Assuming 'img_title' is a column in your 'school_gallery' table
 
             echo '<div class="col-lg-4">
-                    <div class="school_gallery" style="background-image: url(\''. $site_url .'assets/school_image/gallery/'. $img_name .'\');">
+                    <div class="w-100 h-100 school_gallery" style="background-image: url(\''. $site_url .'assets/school_image/gallery/'. $img_name .'\');">
                     <span class="sr-only">'. $img_title .'</span>
                     </div>
                   </div>';
