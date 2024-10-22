@@ -44,6 +44,9 @@ function get_gallery($gallery_result, $site_url) {
             background-repeat:no-repeat;
             cursor:pointer;
         }
+        .pd-section {
+    padding-bottom: 2px;
+}
     </style>
 <div class="col-lg-4">
                     <div class="w-100 school_gallery" style="background-image: url(\''. $site_url .'assets/school_image/gallery/'. $img_name .'\');">
