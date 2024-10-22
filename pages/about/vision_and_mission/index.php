@@ -39,7 +39,9 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
+            </div>
+            <div class="row feature-about-wrap mt-3">
+                <div class="col-12 col-sm-6 offset-sm-3 offset-lg-3 col-lg-6">
                     <div class="tf-icon-box">
                         <div class="icon">
                             <i class="icon-wrench"></i>
@@ -49,7 +51,7 @@ include_once (__DIR__ . '/../../../partials/header.php');
                         </p>
                         <p class="des">
                                 (a)	To provide courses of instruction, training and research in the fields of Engineering Technology, Health Technology, Management Technology, and such other fields of learning as the Institute may from time to time decide
-                        </p>>
+                        </p>
                         <p class="des">
                                 (b)	To organize conferences, seminars, studies and other activities relating to Engineering, Health,
                                 Technology, management technology, and other fields of learning specified in paragraph (a) above.
