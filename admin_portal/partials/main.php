@@ -23,7 +23,7 @@ function includeFileWithVariables($filePath, $variables = array(), $print = true
 
 $isScssconverted = false;
 
-require_once ("scssphp/scss.inc.php");
+require_once (__DIR__."/../../admin_portal/scssphp/scss.inc.php");
 
 use ScssPhp\ScssPhp\Compiler;
 
