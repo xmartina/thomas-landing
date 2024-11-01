@@ -35,7 +35,7 @@
                 <li class="menu-title">Update Pages</li>
 
                 <li>
-                    <a href="<?= $admin_url ?>" class="waves-effect">
+                    <a href="<?= $admin_url ?>pages/home" class="waves-effect">
                         <i class="dripicons-home"></i><span class="badge rounded-pill bg-info float-end">3</span>
                         <span>Home</span>
                     </a>
