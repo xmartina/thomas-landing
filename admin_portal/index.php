@@ -1,8 +1,9 @@
-<?php include 'partials/session.php'; ?>
-<?php include 'partials/main.php'; ?>
+<?php include __DIR__ . '/../admin_portal/partials/session.php'; ?>
+<?php include_once (__DIR__ . '/../admin_portal/functions/home_function.php'); ?>
+<?php include __DIR__ . '/../admin_portal/partials/main.php'; ?>
 <head>
 
-    <?php includeFileWithVariables('partials/title-meta.php', array('title' => 'Dark Sidebar')); ?>
+    <?php includeFileWithVariables('partials/title-meta.php', array('title' => $site_name)); ?>
 
     <!-- plugin css -->
     <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
@@ -26,7 +27,7 @@
 
         <div class="page-content">
 
-            <?php includeFileWithVariables('partials/page-title.php', array('pagetitle' => 'Morvin', 'subtitle' =>'Layouts' , 'title' => 'Dark Sidebar')); ?>
+            <?php includeFileWithVariables('partials/page-title.php', array('pagetitle' => 'Morvin', 'subtitle' =>'Layouts' , 'title' => $site_name)); ?>
 
 
             <div class="container-fluid">
