@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container">
 
             <div class="home-btn"><a href="/" class="text-white router-link-active"><i
-                        class="fas fa-home h2 bg-white"></i></a></div>
+                        class="fas fa-home h2 text-white"></i></a></div>
 
 
             <div class="row justify-content-center">
