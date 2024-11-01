@@ -37,7 +37,7 @@
                 <li>
                     <a href="<?= $site_url ?>admin_portal" class="waves-effect">
                         <i class="dripicons-home"></i><span class="badge rounded-pill bg-info float-end">3</span>
-                        <span>Dashboard</span>
+                        <span>Home</span>
                     </a>
                 </li>
 
