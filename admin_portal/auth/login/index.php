@@ -3,12 +3,12 @@
 session_start();
 
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
-    header("location: index.php");
+    header("location: /admin_portal");
     exit;
 }
 
 // Include config file
-require_once __DIR__."/../../../admin_portal/partials/config.php";
+require_once (__DIR__."/../../../admin_portal/partials/config.php");
 
 // Define variables and initialize with empty values
 $useremail = $password = "";
@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 ?>
-<?php include __DIR__.'/../../../admin_portal/partials/main.php'; ?>
+<?php include (__DIR__.'/../../../admin_portal/partials/main.php'); ?>
 <head>
 
     <?php includeFileWithVariables('partials/title-meta.php', array('title' => 'Login page')); ?>
