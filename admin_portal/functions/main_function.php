@@ -18,4 +18,4 @@ $favicon = $row["favicon"];
 $footer_dec = $row["footer_dec"];
 $footer_copyright = $row["footer_copyright"];
 $site_url = $siteUrl;
-$admin_url = $site_url . 'admin_portal';
+$admin_url = $site_url . 'admin_portal/';
