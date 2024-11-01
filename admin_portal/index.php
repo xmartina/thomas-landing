@@ -27,7 +27,7 @@
 
         <div class="page-content">
 
-            <?php includeFileWithVariables('partials/page-title.php', array('pagetitle' => 'Morvin', 'subtitle' =>'Layouts' , 'title' => $site_name)); ?>
+            <?php includeFileWithVariables('partials/page-title.php', array('pagetitle' => 'Home', 'subtitle' =>'Dashboard' , 'title' => $site_name)); ?>
 
 
             <div class="container-fluid">
