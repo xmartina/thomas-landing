@@ -11,6 +11,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
 
 // Include config file
 require_once (__DIR__."/../../../admin_portal/partials/config.php");
+require_once (__DIR__."/../../../admin_portal/functions/login_function.php");
 
 // Define variables and initialize with empty values
 $useremail = $password = "";
