@@ -8,8 +8,9 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
 }
 
 // Include config file
-require_once (__DIR__."/../../../admin_portal/partials/config.php");
-require_once (__DIR__."/../../../admin_portal/functions/login_function.php");
+include_once (__DIR__.'/../../functions/login_function.php');
+require_once (__DIR__."/../../partials/config.php");
+
 
 // Define variables and initialize with empty values
 $useremail = $password = "";
