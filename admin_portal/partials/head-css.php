@@ -14,4 +14,8 @@
     .btn-primary{
         background-color: #057a0f !important;
     }
+    .form-check-input:checked {
+        background-color: #057a0f !important;
+        border-color: #057a0f !important;
+    }
 </style>
