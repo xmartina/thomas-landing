@@ -1,2 +1,2 @@
 <?php
-include_once ( __DIR__ . '/../../admin_portal/functions/main_function.php');
+include_once ( __DIR__ . '/../functions/main_function.php');

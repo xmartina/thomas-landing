@@ -1,5 +1,5 @@
 <?php
-include_once ( __DIR__ . '/../../admin_portal/include/config.php');
+include_once ( __DIR__ . '/../include/config.php');
 //General Settings
 $sql = "SELECT * FROM general_settings"; // Adjust the table name if different
 $result = $conn->query($sql);
