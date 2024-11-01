@@ -154,7 +154,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     </div>
 
                                     <div class="mt-4 text-center">
-                                        <a href="auth-recoverpw.php" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</a>
+                                        <a href="<?= $admin_url ?>auth/forgotten_password" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</a>
                                     </div>
 
 
@@ -166,7 +166,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
 
                     <div class="mt-5 text-center text-white">
-                        <p>Don't have an account ?<a href="auth-register.php" class="fw-bold text-white"> Register</a> </p>
+                        <p>Don't have an account ?<a href="<?= $admin_url ?>auth/register" class="fw-bold text-white"> Register</a> </p>
                         <p>© <script>document.write(new Date().getFullYear())</script> All Rights Reserved | <?= $site_name ?></p>
                     </div>
                 </div>
