@@ -12,6 +12,3 @@ include(__DIR__.'/../../admin_portal/functions/main_function.php');
 <!-- App favicon -->
 <link rel="shortcut icon" href="<?= $site_url ?>assets/images/favicon.png">
 
-<?php
-ob_end_clean()
-?>
