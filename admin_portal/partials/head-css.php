@@ -8,4 +8,10 @@
     .bg-primary{
         background-color: #057a0f !important;
     }
+    .text-primary{
+        color: #057a0f !important;
+    }
+    .btn-primary{
+        background-color: #057a0f !important;
+    }
 </style>
