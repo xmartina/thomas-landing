@@ -89,9 +89,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php include (__DIR__.'/../../../admin_portal/partials/main.php'); ?>
 <head>
 
-    <?php includeFileWithVariables('partials/title-meta.php', array('title' => 'Login page')); ?>
+    <?php includeFileWithVariables(__DIR__.'/../../../admin_portal/partials/title-meta.php', array('title' => 'Login page')); ?>
 
-    <?php include 'partials/head-css.php'; ?>
+    <?php include __DIR__.'/../../../admin_portal/partials/head-css.php'; ?>
 
 </head>
 
@@ -114,12 +114,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
                                 <div class="text-center">
-                                    <a href="index.php">
-                                        <img src="assets/images/logo-dark.png" height="22" alt="logo">
+                                    <a href="<?=$site_url?>">
+                                        <img src="<?=$site_url?>assets/images/logo-dark.png" height="22" alt="logo">
                                     </a>
 
                                     <h5 class="text-primary mb-2 mt-4">Welcome Back !</h5>
-                                    <p class="text-muted">Sign in to continue to Morvin.</p>
+                                    <p class="text-muted">Sign in to continue to <?=$site_name?></p>
                                 </div>
 
 
@@ -177,9 +177,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- End Log In page -->
 </div>
 
-<?php include 'partials/vendor-scripts.php'; ?>
+<?php include __DIR__.'/../../../admin_portal/partials/vendor-scripts.php'; ?>
 
-<script src="assets/js/app.js"></script>
+<script src="<?= $site_url ?>assets/js/app.js"></script>
 
 </body>
 
