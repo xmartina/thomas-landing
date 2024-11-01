@@ -26,7 +26,7 @@
                 <li class="menu-title">Menu</li>
 
                 <li>
-                    <a href="<?= $site_url ?>admin_portal" class="waves-effect">
+                    <a href="<?= $admin_url ?>" class="waves-effect">
                         <i class="dripicons-home"></i><span class="badge rounded-pill bg-info float-end">3</span>
                         <span>Dashboard</span>
                     </a>
@@ -35,7 +35,7 @@
                 <li class="menu-title">Update Pages</li>
 
                 <li>
-                    <a href="<?= $site_url ?>admin_portal" class="waves-effect">
+                    <a href="<?= $admin_url ?>" class="waves-effect">
                         <i class="dripicons-home"></i><span class="badge rounded-pill bg-info float-end">3</span>
                         <span>Home</span>
                     </a>
@@ -48,7 +48,7 @@
                         <span>Administration</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="<?= $site_url ?>admin_portal/pages/home">Home Page</a></li>
+                        <li><a href="<?= $admin_url ?>pages/home">Home Page</a></li>
                     </ul>
                 </li>
             </ul>
