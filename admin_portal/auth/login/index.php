@@ -117,7 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                 <div class="text-center">
                                     <a href="<?=$site_url?>">
-                                        <img src="<?=$site_url?>assets/images/logo-dark.png" height="22" alt="logo">
+                                        <img src="<?=$site_url?>assets/images/logo_footer.png" height="22" alt="logo">
                                     </a>
 
                                     <h5 class="text-primary mb-2 mt-4">Welcome Back !</h5>
