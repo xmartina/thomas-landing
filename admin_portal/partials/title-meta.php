@@ -1,4 +1,9 @@
-<?php include_once(__DIR__.'/../../admin_portal/functions/main_function.php'); ?>
+
+<?php
+ob_start();
+include(__DIR__.'/../../admin_portal/functions/main_function.php');
+ob_end_clean()
+?>
 
 <meta charset="utf-8" />
 <title><?= ($title) ? $title : '' ?> | <?= $site_title ?></title>
