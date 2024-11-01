@@ -3,7 +3,7 @@ include_once (__DIR__ . '/../../../functions/department_function.php');
 include_once (__DIR__ . '/../../../partials/header.php');
 ?>
 <main id="main">
-<section class="breadcumb-section relative">
+    <section class="breadcumb-section relative" style="background-image: url('<?= $site_url ?>assets/school_image/department/<?= $dep_img ?>'); background-size: cover; background-position: center;">
     <div class="tf-container">
         <div class="row">
             <div class="col-lg-12 z-index-2 relative ">

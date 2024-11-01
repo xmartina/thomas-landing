@@ -26,6 +26,7 @@ if (isset($_GET['book_id'])) {
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $page_name = $row['dep_name']; // Example of using one of the returned columns
+        $dep_img = $row['dep_img'];
 
 //        echo "Department Name: " . htmlspecialchars($page_name);
     } else {
