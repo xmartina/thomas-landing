@@ -1,8 +1,8 @@
-<?php include __DIR__ . '/../admin_portal/partials/session.php';
+<?php include __DIR__ . '/../admin_portal/partials/session.php';?>
+<?php include_once (__DIR__ . '/../admin_portal/functions/home_function.php'); ?>
+<?php include __DIR__ . '/../admin_portal/partials/main.php';
 echo $id;
 ?>
-<?php include_once (__DIR__ . '/../admin_portal/functions/home_function.php'); ?>
-<?php include __DIR__ . '/../admin_portal/partials/main.php'; ?>
 <head>
 
     <?php includeFileWithVariables('partials/title-meta.php', array('title' => $site_name)); ?>
