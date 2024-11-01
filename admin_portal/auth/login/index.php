@@ -167,7 +167,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                     <div class="mt-5 text-center text-white">
                         <p>Don't have an account ?<a href="auth-register.php" class="fw-bold text-white"> Register</a> </p>
-                        <p>© <script>document.write(new Date().getFullYear())</script> Morvin. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesdesign</p>
+                        <p>© <script>document.write(new Date().getFullYear())</script> All Rights Reserved | <?= $site_name ?></p>
                     </div>
                 </div>
             </div>
