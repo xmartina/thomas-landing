@@ -76,7 +76,7 @@
                                                 <td><?=$gender?></td>
                                                 <td><?=$state?></td>
                                                 <td><?=$last_class_passed?></td>
-                                                <td><span
+                                                <td><span onclick="location.href='https://portal.tmit.com.ng/resources/view/modules.php?view_students'"
                                                         class="btn badge badge-pill badge-soft-primary font-size-13">Edit Student</span>
                                                 </td>
                                             </tr>
