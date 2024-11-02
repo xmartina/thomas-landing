@@ -60,12 +60,12 @@
                                             <?php
                                             while ($row = $get_new_users_result->fetch_assoc())
                                             {
-
+                                                $first_name = $row['firstname']
                                                 ?>
                                             <tr>
                                                 <td>#2356</td>
                                                 <td><img src="assets/images/product/img-7.png" width="42" class="me-3" alt="">Green Chair</td>
-                                                <td>Kenneth Gittens</td>
+                                                <td><?=$first_name?></td>
                                                 <td>$200.00</td>
                                                 <td>42</td>
                                                 <td><span
