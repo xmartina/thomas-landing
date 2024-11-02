@@ -11,7 +11,7 @@
                 </span>
                 <span class="logo-lg">
 <!--                    <img src="assets/images/logo-dark.png" alt="" height="20">-->
-                    <span class="text-light">TMIT</span>
+                    <span class="text-dark h2">TMIT</span>
                 </span>
             </a>
 
@@ -22,7 +22,7 @@
                 </span>
                 <span class="logo-lg">
 <!--                    <img src="assets/images/logo-light.png" alt="" height="20">-->
-                    <span class="text-dark">TMIT</span>
+                    <span class="text-light h2">TMIT</span>
                 </span>
             </a>
         </div>
