@@ -103,7 +103,7 @@
 
 <?php include __DIR__ . '/../../../admin_portal/partials/right-sidebar.php'; ?>
 
-<?php include __DIR__ . '/../../partials/vendor-scripts.php'; ?>
+<?php include __DIR__ . '/../../../admin_portal/partials/vendor-scripts.php'; ?>
 
 <!-- apexcharts -->
 <script src="<?= $admin_url ?>assets/libs/apexcharts/apexcharts.min.js"></script>
