@@ -60,27 +60,23 @@
                                             <?php
                                             while ($row = $get_new_users_result->fetch_assoc())
                                             {
-                                                $first_name = $row['firstname']
+                                                $first_name = $row['firstname'];
+                                                $last_name = $row['lastname'];
+                                                $gender = $row['gender'];
+                                                $state = $row['state'];
+                                                $passport = $row['passport'];
+
+                                                $full_name = $first_name.' '.$last_name;
+
                                                 ?>
                                             <tr>
                                                 <td>#2356</td>
-                                                <td><img src="assets/images/product/img-7.png" width="42" class="me-3" alt="">Green Chair</td>
+                                                <td><img src="https://portal.tmit.com.ng/<?=$passport?>" width="42" class="me-3" alt=""><?=$first_name?></td>
                                                 <td><?=$first_name?></td>
                                                 <td>$200.00</td>
                                                 <td>42</td>
                                                 <td><span
-                                                        class="badge badge-pill badge-soft-primary font-size-13">Pending</span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>#2564</td>
-                                                <td><img src="assets/images/product/img-8.png" width="42" class="me-3" alt="">Office Chair</td>
-                                                <td>Alfred Gordon</td>
-                                                <td>$242.00</td>
-                                                <td>54</td>
-                                                <td><span
-                                                        class="badge badge-pill badge-soft-success font-size-13">Active</span>
+                                                        class="badge badge-pill badge-soft-primary font-size-13">Edit Student</span>
                                                 </td>
                                             </tr>
                                             <?php } ?>
