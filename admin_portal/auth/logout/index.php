@@ -67,7 +67,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
 
 <?php include __DIR__.'/../../../admin_portal/partials/vendor-scripts.php'; ?>
 
-<script src="assets/js/app.js"></script>
+<script src="<?=$admin_url?>assets/js/app.js"></script>
 
 </body>
 

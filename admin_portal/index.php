@@ -57,6 +57,11 @@
                                             </tr>
                                             </thead>
                                             <tbody>
+                                            <?php
+                                            while ($row = $get_new_users_result->fetch_assoc())
+                                            {
+
+                                                ?>
                                             <tr>
                                                 <td>#2356</td>
                                                 <td><img src="assets/images/product/img-7.png" width="42" class="me-3" alt="">Green Chair</td>
@@ -78,43 +83,7 @@
                                                         class="badge badge-pill badge-soft-success font-size-13">Active</span>
                                                 </td>
                                             </tr>
-
-
-
-                                            <tr>
-                                                <td>#2125</td>
-                                                <td><img src="assets/images/product/img-10.png" width="42" class="me-3" alt="">Gray Chair</td>
-                                                <td>Keena Reyes</td>
-                                                <td>$320.00</td>
-                                                <td>65</td>
-                                                <td><span
-                                                        class="badge badge-pill badge-soft-success font-size-13">Active</span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>#8587</td>
-                                                <td><img src="assets/images/product/img-11.png" width="42" class="me-3" alt="">Steel Chair</td>
-                                                <td>Timothy Zuniga</td>
-                                                <td>$342.00</td>
-                                                <td>52</td>
-                                                <td><span
-                                                        class="badge badge-pill badge-soft-primary font-size-13">Pending</span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>#2354</td>
-                                                <td><img src="assets/images/product/img-12.png" width="42" class="me-3" alt="">Home Chair</td>
-                                                <td>Joann Wiliams</td>
-                                                <td>$320.00</td>
-                                                <td>25</td>
-                                                <td><span
-                                                        class="badge badge-pill badge-soft-primary font-size-13">Pending</span>
-                                                </td>
-                                            </tr>
-
-
+                                            <?php } ?>
                                             </tbody>
                                         </table>
                                     </div>
