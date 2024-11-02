@@ -215,7 +215,7 @@
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-7.jpg"
                         alt="Header Avatar">
-                    <span class="d-none d-xl-inline-block ms-1">James</span>
+                    <span class="d-none d-xl-inline-block ms-1"><?=$f_name ?></span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
