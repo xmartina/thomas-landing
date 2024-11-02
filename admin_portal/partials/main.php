@@ -48,8 +48,6 @@ if($isScssconverted){
         file_put_contents($target_css, $css);
     }
 }
-$id = $_SESSION["id"];
-include_once (__DIR__ . '/../../admin_portal/functions/home_function.php');
 ?>
 
 <!doctype html>
