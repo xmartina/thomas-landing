@@ -1,4 +1,7 @@
 <?php
+$id = $_SESSION["id"];
+include_once (__DIR__ . '/../../admin_portal/functions/home_function.php');
+
 function includeFileWithVariables($filePath, $variables = array(), $print = true)
 {
     $output = NULL;
