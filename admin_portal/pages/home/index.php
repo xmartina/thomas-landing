@@ -1,21 +1,28 @@
-<?php include __DIR__.'/../../partials/session.php'; ?>
-<?php include __DIR__.'/../../partials/main.php'; ?>
+<?php include __DIR__ . '/../admin_portal/partials/session.php';?>
+<?php include __DIR__ . '/../admin_portal/partials/main.php';
+
+?>
 <head>
 
-    <?php includeFileWithVariables(__DIR__.'/../../partials/title-meta.php', array('title' => 'Cards')); ?>
+    <?php includeFileWithVariables('partials/title-meta.php', array('title' => $site_name)); ?>
+    <?php
+    $id = $_SESSION["id"];
+    include_once (__DIR__ . '/../admin_portal/functions/home_function.php');
+    ?>
+    <!-- plugin css -->
+    <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
 
-    <?php include __DIR__.'/../../partials/head-css.php'; ?>
-
+    <?php include 'partials/head-css.php'; ?>
 
 </head>
 
 
-<body>
+<body data-sidebar="dark">
 
 <!-- Begin page -->
 <div id="layout-wrapper">
 
-    <?php include __DIR__.'/../../partials/menu.php'; ?>
+    <?php include 'partials/menu.php'; ?>
 
     <!-- ============================================================== -->
     <!-- Start right Content here -->
@@ -24,7 +31,7 @@
 
         <div class="page-content">
 
-            <?php includeFileWithVariables('partials/page-title.php', array('pagetitle' => 'Morvin', 'subtitle' =>'UI Elements' , 'title' => 'Cards')); ?>
+            <?php includeFileWithVariables('partials/page-title.php', array('pagetitle' => 'Home', 'subtitle' =>'Dashboard' , 'title' => $site_name)); ?>
 
 
             <div class="container-fluid">
@@ -86,8 +93,7 @@
         </div>
         <!-- End Page-content -->
 
-
-        <?php include __DIR__.'/../../partials/footer.php'; ?>
+        <?php include 'partials/footer.php'; ?>
 
     </div>
     <!-- end main content-->
@@ -95,15 +101,22 @@
 </div>
 <!-- END layout-wrapper -->
 
-<?php include __DIR__.'/../../partials/right-sidebar.php'; ?>
+<?php include 'partials/right-sidebar.php'; ?>
+
+<?php include 'partials/vendor-scripts.php'; ?>
+
+<!-- apexcharts -->
+<script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+<!-- Plugins js-->
+<script src="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
+
+<script src="assets/js/pages/dashboard.init.js"></script>
 
 
-
-<script src="<?= $admin_url ?>assets/libs/masonry-layout/masonry.pkgd.min.js"></script>
-
-<?php include __DIR__.'/../../partials/vendor-scripts.php'; ?>
-
-<script src="<?= $admin_url ?><?= $admin_url ?>assets/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 
 </body>
+
 </html>
