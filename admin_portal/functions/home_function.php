@@ -21,3 +21,11 @@ if ($select_user_result && $select_user_result->num_rows > 0) {
 } else {
     echo "No user found with the specified ID.";
 }
+$full_name = $f_name . ' ' . $l_name;
+if ($role = 1 ){
+    $user_role = 'Super Administrator';
+}elseif ($role = 2 ){
+    $user_role = 'Administrator';
+}elseif ($role = 3 ){
+    $user_role = 'Moderator';
+}

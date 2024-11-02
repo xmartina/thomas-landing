@@ -7,7 +7,7 @@ $site_url = 'https://tmit.com.ng/';
 ?>
 
 <meta charset="utf-8" />
-<title><?= ($title) ? $title : '' ?> | <?= $site_dec ?></title>
+<title>Admin Portal | <?= ($title) ? $title : '' ?> | <?= $site_dec ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="<?= $site_dec ?>" name="description" />
 <meta content="<?= $site_name ?>" name="author" />

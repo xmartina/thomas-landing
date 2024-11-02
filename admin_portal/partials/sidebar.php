@@ -11,8 +11,8 @@
                     <span class="avatar-online bg-success"></span>
                 </div>
                 <div class="user-info">
-                    <h5 class="mt-3 font-size-16 text-white"><?=$f_name?></h5>
-                    <span class="font-size-13 text-white-50">Administrator</span>
+                    <h5 class="mt-3 font-size-16 text-white"><?=$full_name?></h5>
+                    <span class="font-size-13 text-white-50"><?=$user_role?></span>
                 </div>
             </div>
         </div>
