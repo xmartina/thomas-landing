@@ -1,5 +1,7 @@
 <?php include __DIR__ . '/../admin_portal/partials/session.php';?>
 <?php include __DIR__ . '/../admin_portal/partials/main.php';
+$id = $_SESSION["id"];
+include_once (__DIR__ . '/../../../admin_portal/functions/home_function.php');
 
 ?>
 <head>

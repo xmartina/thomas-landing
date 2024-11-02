@@ -53,5 +53,3 @@ if($isScssconverted){
 
 <!doctype html>
 <html lang="en">
-<?php $id = $_SESSION["id"];
-include_once (__DIR__ . '/../../../admin_portal/functions/home_function.php'); ?>
