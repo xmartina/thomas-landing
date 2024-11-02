@@ -5,7 +5,10 @@
 <head>
 
     <?php includeFileWithVariables('partials/title-meta.php', array('title' => $site_name)); ?>
-
+    <?php
+    $id = $_SESSION["id"];
+    include_once (__DIR__ . '/../../admin_portal/functions/home_function.php');
+    ?>
     <!-- plugin css -->
     <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
 
