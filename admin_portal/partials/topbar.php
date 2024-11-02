@@ -6,7 +6,7 @@
          <div class="navbar-brand-box">
             <a href="<?= $admin_url ?>" class="logo logo-dark">
                 <span class="logo-sm">
-                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                    <img src="<?= $admin_url ?>assets/images/logo-sm.png" alt="" height="22">
 
                 </span>
                 <span class="logo-lg">
@@ -17,7 +17,7 @@
 
             <a href="<?= $admin_url ?>" class="logo logo-light">
                 <span class="logo-sm">
-                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                    <img src="<?= $admin_url ?>assets/images/logo-sm.png" alt="" height="22">
 <!--                    <span class="text-white">TMIT</span>-->
                 </span>
                 <span class="logo-lg">
@@ -81,33 +81,33 @@
 
             <div class="dropdown d-none d-md-block ms-2">
                 <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="me-2" src="assets/images/flags/us.jpg" alt="Header Language" height="16"> English <span class="mdi mdi-chevron-down"></span>
+                    <img class="me-2" src="<?= $admin_url ?>assets/images/flags/us.jpg" alt="Header Language" height="16"> English <span class="mdi mdi-chevron-down"></span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> German </span>
+                        <img src="<?= $admin_url ?>assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> German </span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Italian </span>
+                        <img src="<?= $admin_url ?>assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Italian </span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets/images/flags/french.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> French </span>
+                        <img src="<?= $admin_url ?>assets/images/flags/french.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> French </span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Spanish </span>
+                        <img src="<?= $admin_url ?>assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Spanish </span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Russian </span>
+                        <img src="<?= $admin_url ?>assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Russian </span>
                     </a>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                         </a>
                         <a href="" class="text-reset notification-item">
                             <div class="media">
-                                <img src="assets/images/users/avatar-3.jpg"
+                                <img src="<?= $admin_url ?>assets/images/users/avatar-3.jpg"
                                     class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                 <div class="media-body">
                                     <h6 class="mt-0 mb-1">James Lemire</h6>
@@ -190,7 +190,7 @@
 
                         <a href="" class="text-reset notification-item">
                             <div class="media">
-                                <img src="assets/images/users/avatar-4.jpg"
+                                <img src="<?= $admin_url ?>assets/images/users/avatar-4.jpg"
                                     class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                 <div class="media-body">
                                     <h6 class="mt-0 mb-1">Salena Layfield</h6>
@@ -213,7 +213,7 @@
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-7.jpg"
+                    <img class="rounded-circle header-profile-user" src="<?= $admin_url ?>assets/images/users/avatar-7.jpg"
                         alt="Header Avatar">
                     <span class="d-none d-xl-inline-block ms-1"><?=$f_name ?></span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
