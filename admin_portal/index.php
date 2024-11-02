@@ -71,8 +71,8 @@
                                                 ?>
                                             <tr>
                                                 <td>#2356</td>
-                                                <td><img src="https://portal.tmit.com.ng/<?=$passport?>" width="42" class="me-3" alt=""><?=$first_name?></td>
-                                                <td><?=$first_name?></td>
+                                                <td><img src="https://portal.tmit.com.ng/<?=$passport?>" width="42" class="me-3" alt=""><?=$full_name?></td>
+                                                <td><?=$gender?></td>
                                                 <td>$200.00</td>
                                                 <td>42</td>
                                                 <td><span
