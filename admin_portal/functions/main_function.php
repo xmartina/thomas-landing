@@ -21,3 +21,5 @@ $site_url = $siteUrl;
 $admin_url = $site_url . 'admin_portal/';
 $login_url = $admin_url. 'auth/login';
 $register_url = $admin_url. 'auth/register';
+$logout_url = $admin_url. 'auth/logout';
+$forgotten_password_url = $admin_url. 'auth/forgotten_password';
