@@ -48,12 +48,12 @@
                                             <thead class="thead-light">
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Product</th>
+                                                <th>Student Name</th>
 
-                                                <th>Customer</th>
-                                                <th>Price</th>
-                                                <th>Invoice</th>
-                                                <th>Status</th>
+                                                <th>Gender</th>
+                                                <th>State</th>
+                                                <th>Last Class</th>
+                                                <th>Action</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -64,6 +64,7 @@
                                                 $last_name = $row['lastname'];
                                                 $gender = $row['gender'];
                                                 $state = $row['state'];
+                                                $last_class_passed = $row['last_class_passed'];
                                                 $passport = $row['passport'];
 
                                                 $full_name = $first_name.' '.$last_name;
@@ -73,10 +74,10 @@
                                                 <td>#2356</td>
                                                 <td><img src="https://portal.tmit.com.ng/<?=$passport?>" width="42" class="me-3" alt=""><?=$full_name?></td>
                                                 <td><?=$gender?></td>
-                                                <td>$200.00</td>
-                                                <td>42</td>
+                                                <td><?=$state?></td>
+                                                <td><?=$last_class_passed?></td>
                                                 <td><span
-                                                        class="badge badge-pill badge-soft-primary font-size-13">Edit Student</span>
+                                                        class="btn badge badge-pill badge-soft-primary font-size-13">Edit Student</span>
                                                 </td>
                                             </tr>
                                             <?php } ?>
