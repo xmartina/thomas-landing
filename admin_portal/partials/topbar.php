@@ -15,10 +15,12 @@
 
             <a href="index.php" class="logo logo-light">
                 <span class="logo-sm">
-                    <img src="assets/images/logo-sm.png" alt="" height="22">
+<!--                    <img src="assets/images/logo-sm.png" alt="" height="22">-->
+                    <span class="text-white">TMIT</span>
                 </span>
                 <span class="logo-lg">
-                    <img src="assets/images/logo-light.png" alt="" height="20">
+<!--                    <img src="assets/images/logo-light.png" alt="" height="20">-->
+                    <span class="text-dark">TMIT</span>
                 </span>
             </a>
         </div>
