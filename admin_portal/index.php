@@ -1,4 +1,7 @@
 <?php include __DIR__ . '/../admin_portal/partials/session.php';?>
+<?php
+include_once ( __DIR__ . '/../admin_portal/functions/main_function.php');
+?>
 <?php include __DIR__ . '/../admin_portal/partials/main.php';
 
 ?>
