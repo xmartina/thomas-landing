@@ -66,12 +66,13 @@
                                                 $state = $row['state'];
                                                 $last_class_passed = $row['last_class_passed'];
                                                 $passport = $row['passport'];
+                                                $reg_number = $row['reg_number'];
 
                                                 $full_name = $first_name.' '.$last_name;
 
                                                 ?>
                                             <tr>
-                                                <td>#2356</td>
+                                                <td><?=$reg_number?></td>
                                                 <td><img src="https://portal.tmit.com.ng/<?=$passport?>" width="42" class="me-3" alt=""><?=$full_name?></td>
                                                 <td><?=$gender?></td>
                                                 <td><?=$state?></td>
