@@ -7,7 +7,7 @@
     <?php includeFileWithVariables(__DIR__ . '/../../../admin_portal/partials/title-meta.php', array('title' => $site_name)); ?>
     <?php
     $id = $_SESSION["id"];
-    include_once (__DIR__ . '/../../functions/home_function.php');
+    include_once (__DIR__ . '/../../functions/update_pages/home_function.php');
     ?>
     <!-- plugin css -->
     <link href="<?= $admin_url ?>assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
