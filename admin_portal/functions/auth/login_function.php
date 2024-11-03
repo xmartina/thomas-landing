@@ -25,7 +25,7 @@ if (isset($_POST['login'])) {
 
     if (!empty($username) && !empty($password)) {
         // Query to check if the username exists
-        $query = "SELECT id, username, password FROM hm2_users WHERE username = '$username'";
+        $query = "SELECT id, username, password FROM users WHERE username = '$username'";
         $result = mysqli_query($conn, $query);
 
         // Check if the user exists
