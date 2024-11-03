@@ -6,7 +6,7 @@ $url = $_SERVER['REQUEST_URI'];
 if (strpos($url, 'login') === false) {
     // If the user is not logged in, redirect to the login page
     if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-        header("Location:".$admin_url."auth/login");
+        header("Location:".$admin_url."login");
         exit;
     }
 }
