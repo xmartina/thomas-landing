@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> YNEX - Bootstrap 5 Premium Admin & Dashboard Template </title>
-    <meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
-    <meta name="Author" content="Spruko Technologies Private Limited">
+    <title> <?= $site_name ?> - <?= $site_title ?> </title>
+    <meta name="Description" content="<?= $site_title ?>">
+    <meta name="Author" content="<?= $site_name ?>">
     <meta name="keywords" content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
 
     <!-- Favicon -->
