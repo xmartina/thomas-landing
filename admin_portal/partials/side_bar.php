@@ -29,27 +29,9 @@
                 <!-- Start::slide -->
                 <li class="slide">
                     <a href="<?= $admin_url ?>" class="side-menu__item">
-                        <i class="bx bx-gift side-menu__icon"></i>
+                        <i class="bx bx-home side-menu__icon"></i>
                         <span class="side-menu__label">Dashboard<span class="badge bg-danger-transparent ms-2">Hot</span></span>
                     </a>
-                </li>
-                <!-- End::slide -->
-
-                <!-- Start::slide -->
-                <li class="slide has-sub">
-                    <a href="<?= $admin_url ?>" class="side-menu__item">
-                        <i class="bx bx-home side-menu__icon"></i>
-                        <span class="side-menu__label">Dashboards<span class="badge bg-warning-transparent ms-2">12</span></span>
-                        <i class="fe fe-chevron-right side-menu__angle"></i>
-                    </a>
-                    <ul class="slide-menu child1">
-                        <li class="slide side-menu__label1">
-                            <a href="javascript:void(0)">Dashboards</a>
-                        </li>
-                        <li class="slide">
-                            <a href="index.html" class="side-menu__item">CRM</a>
-                        </li>
-                    </ul>
                 </li>
                 <!-- End::slide -->
 
@@ -58,11 +40,20 @@
                 <!-- End::slide__category -->
 
                 <!-- Start::slide -->
-                <li class="slide">
-                    <a href="widgets.html" class="side-menu__item">
-                        <i class="bx bx-gift side-menu__icon"></i>
-                        <span class="side-menu__label">Widgets<span class="badge bg-danger-transparent ms-2">Hot</span></span>
+                <li class="slide has-sub">
+                    <a href="javascript:void(0)" class="side-menu__item">
+                        <i class="bx bx-home side-menu__icon"></i>
+                        <span class="side-menu__label">Update Pages<span class="badge bg-warning-transparent ms-2">12</span></span>
+                        <i class="fe fe-chevron-right side-menu__angle"></i>
                     </a>
+                    <ul class="slide-menu child1">
+                        <li class="slide side-menu__label1">
+                            <a href="javascript:void(0)">Update Pages</a>
+                        </li>
+                        <li class="slide">
+                            <a href="index.html" class="side-menu__item">CRM</a>
+                        </li>
+                    </ul>
                 </li>
                 <!-- End::slide -->
 
