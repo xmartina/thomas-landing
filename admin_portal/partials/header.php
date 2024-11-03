@@ -83,7 +83,7 @@
 
             </div>
             <!-- End::header-content-left -->
-<?php if (strpos($url, 'login') !== false){?>
+<?php if (strpos($url, 'login') === false){?>
             <!-- Start::header-content-right -->
             <div class="header-content-right">
 
