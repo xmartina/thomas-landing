@@ -76,6 +76,7 @@ while ($row = $get_new_users_result->fetch_assoc())
     $last_class_passed = $row['last_class_passed'];
     $passport = $row['passport'];
     $reg_number = $row['reg_number'];
+    $date_of_reg  = $row['date_of_reg'];
 
     $full_name = $first_name.' '.$last_name;
 
@@ -85,20 +86,40 @@ while ($row = $get_new_users_result->fetch_assoc())
                                             <td>
                                                 <div class="d-flex align-items-center fw-semibold">
                                                                 <span class="avatar avatar-sm me-2 avatar-rounded">
-                                                                    <img src="<?= $admin_url ?>assets/images/faces/4.jpg" alt="img">
+                                                                    <img src="https://portal.tmit.com.ng/<?=$passport?>" alt="img">
                                                                 </span><?=$full_name?>
                                                 </div>
                                             </td>
-                                            <td>Manufacture</td>
-                                            <td>mayorkelly@gmail.com</td>
+                                            <td><?=$reg_number?></td>
+                                            <td><?=$last_class_passed?></td>
                                             <td>
-                                                <span class="badge bg-info-transparent">Germany</span>
+                                                <span id="badge-state" class="badge bg-info-transparent"><?= $state ?></span>
                                             </td>
-                                            <td>Sep 15 - Oct 12, 2023</td>
+
+                                            <script>
+                                                // JavaScript array of possible badge classes
+                                                const badgeClasses = [
+                                                    'badge bg-info-transparent',
+                                                    'badge bg-success-transparent',
+                                                    'badge bg-danger-transparent',
+                                                    'badge bg-primary-transparent'
+                                                ];
+
+                                                // Get the badge element
+                                                const badgeElement = document.getElementById('badge-state');
+
+                                                // Randomly select a class from the badgeClasses array
+                                                const randomBadgeClass = badgeClasses[Math.floor(Math.random() * badgeClasses.length)];
+
+                                                // Apply the selected class to the badge element
+                                                badgeElement.className = randomBadgeClass;
+                                            </script>
+
+                                            <td><?=$date_of_reg ?></td>
                                             <td>
                                                 <div class="hstack gap-2 fs-15">
                                                     <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-success-light"><i class="ri-download-2-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
+                                                    <a onclick="location.href='https://portal.tmit.com.ng/resources/view/modules.php?view_students'" aria-label="anchor" href="javascript:void(0);" class="btn btn-icon btn-wave waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
