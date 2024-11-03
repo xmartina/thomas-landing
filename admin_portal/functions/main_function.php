@@ -56,5 +56,3 @@ if ($role = 1) {
 }
 
 
-$get_new_users_sql = "SELECT * FROM students WHERE is_registered = '1' LIMIT 10";
-$get_new_users_result = $portal_conn->query($get_new_users_sql);
