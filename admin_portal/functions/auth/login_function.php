@@ -37,13 +37,14 @@ if (isset($_POST['login'])) {
             if (password_verify($password, $hashed_password)) {
                 $_SESSION['user_id'] = $row['id'];
                 $_SESSION['useremail'] = $row['useremail'];
+                $_SESSION["loggedin"] === true;
 
                 // Redirect to v_card page
-                header("Location: " . $admin_url . "v_card");
+                header("Location: " . $admin_url);
                 exit();
             } else { ?>
                 <script type="text/javascript">
-                    window.location.assign('<?= $admin_url ?>v_card/auth/?error=invalid_password');
+                    window.location.assign('<?= $admin_url ?>login/?error=invalid_password');
                 </script>
                 <?php
                 exit();
