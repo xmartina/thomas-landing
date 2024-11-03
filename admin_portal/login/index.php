@@ -464,7 +464,7 @@ include_once __DIR__.'/../../admin_portal/partials/header.php';
                         <div class="row gy-3">
                             <div class="col-xl-12">
                                 <label for="signin-username" class="form-label text-default">User Name</label>
-                                <input type="text" name="username" class="form-control form-control-lg" id="signin-username" placeholder="Username" required>
+                                <input type="text" name="email" class="form-control form-control-lg" id="signin-username" placeholder="Username" required>
                             </div>
                             <div class="col-xl-12 mb-2">
                                 <label for="signin-password" class="form-label text-default d-block">Password

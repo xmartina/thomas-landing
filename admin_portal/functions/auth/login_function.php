@@ -20,7 +20,7 @@ if (strpos($page_url, 'auth') === false) {
 
 // Check if login form is submitted
 if (isset($_POST['login'])) {
-    $username = trim($_POST['username']);
+    $username = trim($_POST['email']);
     $password = trim($_POST['password']);
 
     if (!empty($username) && !empty($password)) {
