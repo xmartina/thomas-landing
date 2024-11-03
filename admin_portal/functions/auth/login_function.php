@@ -1,68 +1,68 @@
 <?php
 ob_start();
-session_start(); // Ensure the session is started
+session_start();
 include_once(__DIR__ . '/../main_function.php');
 
 $page_url = $_SERVER['REQUEST_URI'];
 
-// Check if 'auth' is in the URL
-if (strpos($page_url, 'auth') !== false) {
-    // Do nothing; skip the next block of code
-} else { // If 'auth' is not found, check the next condition
-    if (
-        strpos($page_url, 'v_card') !== false || // Check if 'v_card' is found
-        strpos($page_url, 'card_request') !== false // Check if 'card_request' is found
-    ) {
-        if (!isset($_SESSION['username'])) { // If not authenticated
-            ?>
+// Redirect if not authenticated for certain pages
+if (strpos($page_url, 'auth') === false) {
+    if (strpos($page_url, 'v_card') !== false || strpos($page_url, 'card_request') !== false) {
+        if (!isset($_SESSION['username'])) { ?>
             <script type="text/javascript">
-                window.location.href = "<?= $base_url ?>?a=login"; // Redirect to login
+                window.location.href = "<?= $admin_url ?>?a=login";
             </script>
             <?php
-            exit();  // Ensure the script stops after redirection
+            exit();
         }
     }
 }
 
-// Check if the request method is POST and the form is submitted
-if (isset($_POST['card_auth'])) {
-    // Get the username from the form
+// Check if login form is submitted
+if (isset($_POST['login'])) {
     $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
 
-    // Check if the username is not empty
-    if (!empty($username)) {
-        // Prepare SQL query to find the username in the hm2_users table
-        $query = "SELECT id, username FROM hm2_users WHERE username = ?";
-        $stmt = $conn->prepare($query);
-        $stmt->bind_param("s", $username);  // bind the username to the query
-        $stmt->execute();
-        $result = $stmt->get_result();
+    if (!empty($username) && !empty($password)) {
+        // Query to check if the username exists
+        $query = "SELECT id, username, password FROM hm2_users WHERE username = '$username'";
+        $result = mysqli_query($conn, $query);
 
-        // If a row is returned, the username exists
-        if ($result->num_rows > 0) {
-            $row = $result->fetch_assoc(); // Fetch the row
+        // Check if the user exists
+        if ($result && mysqli_num_rows($result) == 1) {
+            $row = mysqli_fetch_assoc($result);
+            $hashed_password = $row['password'];
 
-            // Store the user_id and username in the session
-            $_SESSION['user_id'] = $row['id'];
-            $user_id = $_SESSION['user_id'];
-            $_SESSION['username'] = $row['username'];
-            header("Location: " . $base_url . "v_card");
-            // Redirect to the v_card page
-            exit();  // Always stop script execution after redirection
+            // Verify password
+            if (password_verify($password, $hashed_password)) {
+                $_SESSION['user_id'] = $row['id'];
+                $_SESSION['username'] = $row['username'];
+
+                // Redirect to v_card page
+                header("Location: " . $admin_url . "v_card");
+                exit();
+            } else { ?>
+                <script type="text/javascript">
+                    window.location.assign('<?= $admin_url ?>v_card/auth/?error=invalid_password');
+                </script>
+                <?php
+                exit();
+            }
         } else { ?>
             <script type="text/javascript">
-                window.location.assign('<?= $base_url ?>v_card/auth/?error=invalid_username'); // Redirect with error
+                window.location.assign('<?= $admin_url ?>v_card/auth/?error=invalid_username');
             </script>
             <?php
-            exit();  // Stop script execution after redirect
+            exit();
         }
     } else { ?>
         <script type="text/javascript">
-            window.location.assign('<?= $base_url ?>v_card/auth/?error=enter_a_username'); // Redirect with error
+            window.location.assign('<?= $admin_url ?>v_card/auth/?error=missing_credentials');
         </script>
         <?php
-        exit();  // Stop script execution after redirect
+        exit();
     }
 }
 
 ob_end_flush();
+?>
