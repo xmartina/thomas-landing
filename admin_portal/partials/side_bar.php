@@ -52,7 +52,7 @@
                             <a href="javascript:void(0)">Update Pages</a>
                         </li>
                         <li class="slide">
-                            <a href="index.html" class="side-menu__item">CRM</a>
+                            <a href="<?= $admin_url ?>pages/home" class="side-menu__item">Home</a>
                         </li>
                     </ul>
                 </li>
