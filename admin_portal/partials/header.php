@@ -13,38 +13,38 @@
     <meta name="keywords" content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
 
     <!-- Favicon -->
-    <link rel="icon" href="<?= $site_url ?>assets/images/brand-logos/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?= $admin_url ?>assets/images/brand-logos/favicon.ico" type="image/x-icon">
 
     <!-- Choices JS -->
-    <script src="<?= $site_url ?>assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="<?= $admin_url ?>assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
 
     <!-- Main Theme Js -->
-    <script src="<?= $site_url ?>assets/js/main.js"></script>
+    <script src="<?= $admin_url ?>assets/js/main.js"></script>
 
     <!-- Bootstrap Css -->
-    <link id="style" href="<?= $site_url ?>assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link id="style" href="<?= $admin_url ?>assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
 
     <!-- Style Css -->
-    <link href="<?= $site_url ?>assets/css/styles.min.css" rel="stylesheet" >
+    <link href="<?= $admin_url ?>assets/css/styles.min.css" rel="stylesheet" >
 
     <!-- Icons Css -->
-    <link href="<?= $site_url ?>assets/css/icons.css" rel="stylesheet" >
+    <link href="<?= $admin_url ?>assets/css/icons.css" rel="stylesheet" >
 
     <!-- Node Waves Css -->
-    <link href="<?= $site_url ?>assets/libs/node-waves/waves.min.css" rel="stylesheet" >
+    <link href="<?= $admin_url ?>assets/libs/node-waves/waves.min.css" rel="stylesheet" >
 
     <!-- Simplebar Css -->
-    <link href="<?= $site_url ?>assets/libs/simplebar/simplebar.min.css" rel="stylesheet" >
+    <link href="<?= $admin_url ?>assets/libs/simplebar/simplebar.min.css" rel="stylesheet" >
 
     <!-- Color Picker Css -->
-    <link rel="stylesheet" href="<?= $site_url ?>assets/libs/flatpickr/flatpickr.min.css">
-    <link rel="stylesheet" href="<?= $site_url ?>assets/libs/@simonwep/pickr/themes/nano.min.css">
+    <link rel="stylesheet" href="<?= $admin_url ?>assets/libs/flatpickr/flatpickr.min.css">
+    <link rel="stylesheet" href="<?= $admin_url ?>assets/libs/@simonwep/pickr/themes/nano.min.css">
 
     <!-- Choices Css -->
-    <link rel="stylesheet" href="<?= $site_url ?>assets/libs/choices.js/public/assets/styles/choices.min.css">
-    <link rel="stylesheet" href="<?= $site_url ?>assets/libs/jsvectormap/css/jsvectormap.min.css">
+    <link rel="stylesheet" href="<?= $admin_url ?>assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="<?= $admin_url ?>assets/libs/jsvectormap/css/jsvectormap.min.css">
 
-    <link rel="stylesheet" href="<?= $site_url ?>assets/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="<?= $admin_url ?>assets/libs/swiper/swiper-bundle.min.css">
 
 </head>
 
@@ -64,10 +64,10 @@
                 <div class="header-element">
                     <div class="horizontal-logo">
                         <a href="index.html" class="header-logo">
-                            <img src="<?= $site_url ?>assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
-                            <img src="<?= $site_url ?>assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
-                            <img src="<?= $site_url ?>assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
-                            <img src="<?= $site_url ?>assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
+                            <img src="<?= $admin_url ?>assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
+                            <img src="<?= $admin_url ?>assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
+                            <img src="<?= $admin_url ?>assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
+                            <img src="<?= $admin_url ?>assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
                         </a>
                     </div>
                 </div>
@@ -101,14 +101,14 @@
                 <div class="header-element country-selector">
                     <!-- Start::header-link|dropdown-toggle -->
                     <a href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown">
-                        <img src="<?= $site_url ?>assets/images/flags/us_flag.jpg" alt="img" class="rounded-circle">
+                        <img src="<?= $admin_url ?>assets/images/flags/us_flag.jpg" alt="img" class="rounded-circle">
                     </a>
                     <!-- End::header-link|dropdown-toggle -->
                     <ul class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
                             <span class="avatar avatar-xs lh-1 me-2">
-                                <img src="<?= $site_url ?>assets/images/flags/us_flag.jpg" alt="img">
+                                <img src="<?= $admin_url ?>assets/images/flags/us_flag.jpg" alt="img">
                             </span>
                                 English
                             </a>
@@ -116,7 +116,7 @@
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
                             <span class="avatar avatar-xs lh-1 me-2">
-                                <img src="<?= $site_url ?>assets/images/flags/spain_flag.jpg" alt="img" >
+                                <img src="<?= $admin_url ?>assets/images/flags/spain_flag.jpg" alt="img" >
                             </span>
                                 Spanish
                             </a>
@@ -124,7 +124,7 @@
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
                             <span class="avatar avatar-xs lh-1 me-2">
-                                <img src="<?= $site_url ?>assets/images/flags/french_flag.jpg" alt="img" >
+                                <img src="<?= $admin_url ?>assets/images/flags/french_flag.jpg" alt="img" >
                             </span>
                                 French
                             </a>
@@ -132,7 +132,7 @@
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
                             <span class="avatar avatar-xs lh-1 me-2">
-                                <img src="<?= $site_url ?>assets/images/flags/germany_flag.jpg" alt="img" >
+                                <img src="<?= $admin_url ?>assets/images/flags/germany_flag.jpg" alt="img" >
                             </span>
                                 German
                             </a>
@@ -140,7 +140,7 @@
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
                             <span class="avatar avatar-xs lh-1 me-2">
-                                <img src="<?= $site_url ?>assets/images/flags/italy_flag.jpg" alt="img" >
+                                <img src="<?= $admin_url ?>assets/images/flags/italy_flag.jpg" alt="img" >
                             </span>
                                 Italian
                             </a>
@@ -148,7 +148,7 @@
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
                             <span class="avatar avatar-xs lh-1 me-2">
-                                <img src="<?= $site_url ?>assets/images/flags/russia_flag.jpg" alt="img" >
+                                <img src="<?= $admin_url ?>assets/images/flags/russia_flag.jpg" alt="img" >
                             </span>
                                 Russian
                             </a>
@@ -196,7 +196,7 @@
                         <ul class="list-unstyled mb-0" id="header-cart-items-scroll">
                             <li class="dropdown-item">
                                 <div class="d-flex align-items-start cart-dropdown-item">
-                                    <img src="<?= $site_url ?>assets/images/ecommerce/jpg/1.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
+                                    <img src="<?= $admin_url ?>assets/images/ecommerce/jpg/1.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
                                     <div class="flex-grow-1">
                                         <div class="d-flex align-items-start justify-content-between mb-0">
                                             <div class="mb-0 fs-13 text-dark fw-semibold">
@@ -218,7 +218,7 @@
                             </li>
                             <li class="dropdown-item">
                                 <div class="d-flex align-items-start cart-dropdown-item">
-                                    <img src="<?= $site_url ?>assets/images/ecommerce/jpg/3.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
+                                    <img src="<?= $admin_url ?>assets/images/ecommerce/jpg/3.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
                                     <div class="flex-grow-1">
                                         <div class="d-flex align-items-start justify-content-between mb-0">
                                             <div class="mb-0 fs-13 text-dark fw-semibold">
@@ -240,7 +240,7 @@
                             </li>
                             <li class="dropdown-item">
                                 <div class="d-flex align-items-start cart-dropdown-item">
-                                    <img src="<?= $site_url ?>assets/images/ecommerce/jpg/5.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
+                                    <img src="<?= $admin_url ?>assets/images/ecommerce/jpg/5.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
                                     <div class="flex-grow-1">
                                         <div class="d-flex align-items-start justify-content-between mb-0">
                                             <div class="mb-0 fs-13 text-dark fw-semibold">
@@ -261,7 +261,7 @@
                             </li>
                             <li class="dropdown-item">
                                 <div class="d-flex align-items-start cart-dropdown-item">
-                                    <img src="<?= $site_url ?>assets/images/ecommerce/jpg/4.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
+                                    <img src="<?= $admin_url ?>assets/images/ecommerce/jpg/4.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
                                     <div class="flex-grow-1">
                                         <div class="d-flex align-items-start justify-content-between mb-0">
                                             <div class="mb-0 fs-13 text-dark fw-semibold">
@@ -283,7 +283,7 @@
                             </li>
                             <li class="dropdown-item">
                                 <div class="d-flex align-items-start cart-dropdown-item">
-                                    <img src="<?= $site_url ?>assets/images/ecommerce/jpg/6.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
+                                    <img src="<?= $admin_url ?>assets/images/ecommerce/jpg/6.jpg" alt="img" class="avatar avatar-sm avatar-rounded br-5 me-3">
                                     <div class="flex-grow-1">
                                         <div class="d-flex align-items-start justify-content-between mb-0">
                                             <div class="mb-0 fs-13 text-dark fw-semibold">
@@ -462,7 +462,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/figma.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/figma.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Figma</span>
                                         </div>
@@ -472,7 +472,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/microsoft-powerpoint.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/microsoft-powerpoint.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Power Point</span>
                                         </div>
@@ -482,7 +482,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/microsoft-word.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/microsoft-word.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">MS Word</span>
                                         </div>
@@ -492,7 +492,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/calender.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/calender.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Calendar</span>
                                         </div>
@@ -502,7 +502,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/sketch.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/sketch.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Sketch</span>
                                         </div>
@@ -512,7 +512,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/google-docs.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/google-docs.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Docs</span>
                                         </div>
@@ -522,7 +522,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/google.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/google.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Google</span>
                                         </div>
@@ -532,7 +532,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/translate.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/translate.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Translate</span>
                                         </div>
@@ -542,7 +542,7 @@
                                     <a href="javascript:void(0);">
                                         <div class="text-center p-3 related-app">
                                         <span class="avatar avatar-sm avatar-rounded">
-                                            <img src="<?= $site_url ?>assets/images/apps/google-sheets.png" alt="">
+                                            <img src="<?= $admin_url ?>assets/images/apps/google-sheets.png" alt="">
                                         </span>
                                             <span class="d-block fs-12">Sheets</span>
                                         </div>
@@ -577,7 +577,7 @@
                     <a href="#" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                         <div class="d-flex align-items-center">
                             <div class="me-sm-2 me-0">
-                                <img src="<?= $site_url ?>assets/images/faces/9.jpg" alt="img" width="32" height="32" class="rounded-circle">
+                                <img src="<?= $admin_url ?>assets/images/faces/9.jpg" alt="img" width="32" height="32" class="rounded-circle">
                             </div>
                             <div class="d-sm-block d-none">
                                 <p class="fw-semibold mb-0 lh-1">Json Taylor</p>
