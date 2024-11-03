@@ -1,6 +1,6 @@
 <?php
 include_once(__DIR__ . '/../../admin_portal/functions/main_function.php');
-
+$id = $_SESSION['user_id'];
 $select_user_sql = "SELECT * FROM users WHERE id = '$id'";
 $select_user_result = $conn->query($select_user_sql);
 
