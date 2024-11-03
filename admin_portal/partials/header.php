@@ -580,8 +580,8 @@
                                 <img src="<?= $admin_url ?>assets/images/faces/9.jpg" alt="img" width="32" height="32" class="rounded-circle">
                             </div>
                             <div class="d-sm-block d-none">
-                                <p class="fw-semibold mb-0 lh-1">Json Taylor</p>
-                                <span class="op-7 fw-normal d-block fs-11">Web Designer</span>
+                                <p class="fw-semibold mb-0 lh-1"><?= $full_name ?></p>
+                                <span class="op-7 fw-normal d-block fs-11"><?= $user_role ?></span>
                             </div>
                         </div>
                     </a>
