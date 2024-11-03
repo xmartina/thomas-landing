@@ -615,6 +615,6 @@
         <!-- End::main-header-container -->
 
     </header>
+    <?php } ?>
     <!-- /app-header -->
     <?php include_once __DIR__.'/../partials/side_bar.php'; ?>
-<?php } ?>

@@ -15,6 +15,7 @@
     <!-- Start::main-sidebar -->
     <div class="main-sidebar" id="sidebar-scroll">
 
+        <?php if (strpos($url, 'login') === false){?>
         <!-- Start::nav -->
         <nav class="main-menu-container nav nav-pills flex-column sub-open">
             <div class="slide-left" id="slide-left">
@@ -62,6 +63,7 @@
         </nav>
         <!-- End::nav -->
 
+        <?php } ?>
     </div>
     <!-- End::main-sidebar -->
 
