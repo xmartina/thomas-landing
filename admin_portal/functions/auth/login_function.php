@@ -37,7 +37,6 @@ if (isset($_POST['login'])) {
             if (password_verify($password, $hashed_password)) {
                 $_SESSION['user_id'] = $row['id'];
                 $_SESSION['useremail'] = $row['useremail'];
-                $_SESSION["loggedin"] === true;
 
                 // Redirect to v_card page
                 header("Location: " . $admin_url);
