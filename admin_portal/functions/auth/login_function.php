@@ -1,8 +1,6 @@
 <?php
-
-
 // Include database configuration file
-require_once __DIR__.'/../../../admin_portal/functions/main_function.php';
+require_once __DIR__.'/../../functions/main_function.php';
 
 // Define variables and initialize with empty values
 $username = $password = "";
