@@ -25,3 +25,5 @@ $logout_url = $admin_url. 'auth/logout';
 $forgotten_password_url = $admin_url. 'auth/forgotten_password';
 $site_logo = 'TMIT';
 $sitelogo = $site_logo;
+
+include_once __DIR__.'/../../admin_portal/functions/auth/session.php';
