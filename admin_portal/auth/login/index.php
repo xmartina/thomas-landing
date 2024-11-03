@@ -1,4 +1,4 @@
-<?php include_once __DIR__ .'/../../../admin_portal/functions/login_function.php';
+<?php include_once __DIR__ .'/../../functions/auth/login_function.php';
 include_once __DIR__.'/../../../admin_portal/partials/header.php';
 ?>
 <!DOCTYPE html>
