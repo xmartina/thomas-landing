@@ -11,7 +11,7 @@ include_once __DIR__.'/../admin_portal/partials/header.php';
         <div class="d-md-flex d-block align-items-center justify-content-between my-4 page-header-breadcrumb">
             <div>
                 <p class="fw-semibold fs-18 mb-0">Welcome back, <?=$f_name?> !</p>
-                <span class="fs-semibold text-muted">Track your sales activity, leads and deals here.</span>
+                <span class="fs-semibold text-muted">Track students activities here.</span>
             </div>
             <div class="btn-list mt-md-0 mt-2">
                 <button type="button" class="btn btn-primary btn-wave">
@@ -66,13 +66,27 @@ include_once __DIR__.'/../admin_portal/partials/header.php';
                                         </tr>
                                         </thead>
                                         <tbody>
+<?php
+while ($row = $get_new_users_result->fetch_assoc())
+{
+    $first_name = $row['firstname'];
+    $last_name = $row['lastname'];
+    $gender = $row['gender'];
+    $state = $row['state'];
+    $last_class_passed = $row['last_class_passed'];
+    $passport = $row['passport'];
+    $reg_number = $row['reg_number'];
+
+    $full_name = $first_name.' '.$last_name;
+
+    ?>
                                         <tr>
                                             <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value="" aria-label="..."></th>
                                             <td>
                                                 <div class="d-flex align-items-center fw-semibold">
                                                                 <span class="avatar avatar-sm me-2 avatar-rounded">
                                                                     <img src="<?= $admin_url ?>assets/images/faces/4.jpg" alt="img">
-                                                                </span>Mayor Kelly
+                                                                </span><?=$full_name?>
                                                 </div>
                                             </td>
                                             <td>Manufacture</td>
@@ -88,94 +102,7 @@ include_once __DIR__.'/../admin_portal/partials/header.php';
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel13" value="" aria-label="..." checked></th>
-                                            <td>
-                                                <div class="d-flex align-items-center fw-semibold">
-                                                                <span class="avatar avatar-sm me-2 avatar-rounded">
-                                                                    <img src="<?= $admin_url ?>assets/images/faces/15.jpg" alt="img">
-                                                                </span>Andrew Garfield
-                                                </div>
-                                            </td>
-                                            <td>Development</td>
-                                            <td>andrewgarfield@gmail.com</td>
-                                            <td>
-                                                <span class="badge bg-primary-transparent">Canada</span>
-                                            </td>
-                                            <td>Apr 10 - Dec 12, 2023</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-success-light"><i class="ri-download-2-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel4" value="" aria-label="..."></th>
-                                            <td>
-                                                <div class="d-flex align-items-center fw-semibold">
-                                                                <span class="avatar avatar-sm me-2 avatar-rounded">
-                                                                    <img src="<?= $admin_url ?>assets/images/faces/11.jpg" alt="img">
-                                                                </span>Simon Cowel
-                                                </div>
-                                            </td>
-                                            <td>Service</td>
-                                            <td>simoncowel234@gmail.com</td>
-                                            <td>
-                                                <span class="badge bg-danger-transparent">Europe</span>
-                                            </td>
-                                            <td>Sep 15 - Oct 12, 2023</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-success-light"><i class="ri-download-2-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel5" value="" aria-label="..." checked></th>
-                                            <td>
-                                                <div class="d-flex align-items-center fw-semibold">
-                                                                <span class="avatar avatar-sm me-2 avatar-rounded">
-                                                                    <img src="<?= $admin_url ?>assets/images/faces/8.jpg" alt="img">
-                                                                </span>Mirinda Hers
-                                                </div>
-                                            </td>
-                                            <td>Marketing</td>
-                                            <td>mirindahers@gmail.com</td>
-                                            <td>
-                                                <span class="badge bg-warning-transparent">USA</span>
-                                            </td>
-                                            <td>Apr 14 - Dec 14, 2023</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-success-light"><i class="ri-download-2-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel3" value="" aria-label="..." checked></th>
-                                            <td>
-                                                <div class="d-flex align-items-center fw-semibold">
-                                                                <span class="avatar avatar-sm me-2 avatar-rounded">
-                                                                    <img src="<?= $admin_url ?>assets/images/faces/9.jpg" alt="img">
-                                                                </span>Jacob Smith
-                                                </div>
-                                            </td>
-                                            <td>Social Plataform</td>
-                                            <td>jacobsmith@gmail.com</td>
-                                            <td>
-                                                <span class="badge bg-success-transparent">Singapore</span>
-                                            </td>
-                                            <td>Feb 25 - Nov 25, 2023</td>
-                                            <td>
-                                                <div class="hstack gap-2 fs-15">
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-success-light"><i class="ri-download-2-line"></i></a>
-                                                    <a aria-label="anchor" href="javascript:void(0);" class="btn btn-icon waves-effect waves-light btn-sm btn-primary-light"><i class="ri-edit-line"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
+    <?php } ?>
                                         </tbody>
                                     </table>
                                 </div>

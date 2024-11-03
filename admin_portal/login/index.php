@@ -468,7 +468,7 @@ include_once __DIR__.'/../../admin_portal/partials/header.php';
                             </div>
                             <div class="col-xl-12 mb-2">
                                 <label for="signin-password" class="form-label text-default d-block">Password
-                                    <a href="reset-password-basic.html" class="float-end text-danger">Forget password?</a>
+                                    <a href="<?=$admin_url?>login/forgotten_password" class="float-end text-danger">Forget password?</a>
                                 </label>
                                 <div class="input-group">
                                     <input type="password" name="password" class="form-control form-control-lg" id="signin-password" placeholder="Password" required>
@@ -488,23 +488,6 @@ include_once __DIR__.'/../../admin_portal/partials/header.php';
                             <div class="col-xl-12 d-grid mt-2">
                                 <button type="submit" name="login" class="btn btn-lg btn-primary">Sign In</button>
                             </div>
-                        </div>
-                        <div class="text-center">
-                            <p class="fs-12 text-muted mt-3">Don't have an account? <a href="sign-up-basic.html" class="text-primary">Sign Up</a></p>
-                        </div>
-                        <div class="text-center my-3 authentication-barrier">
-                            <span>OR</span>
-                        </div>
-                        <div class="btn-list text-center">
-                            <button class="btn btn-icon btn-light" type="button">
-                                <i class="ri-facebook-line fw-bold text-dark op-7"></i>
-                            </button>
-                            <button class="btn btn-icon btn-light" type="button">
-                                <i class="ri-google-line fw-bold text-dark op-7"></i>
-                            </button>
-                            <button class="btn btn-icon btn-light" type="button">
-                                <i class="ri-twitter-line fw-bold text-dark op-7"></i>
-                            </button>
                         </div>
                     </div>
                 </div>
