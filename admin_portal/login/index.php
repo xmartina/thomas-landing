@@ -1,5 +1,5 @@
-<?php include_once __DIR__ .'/../../functions/auth/login_function.php';
-include_once __DIR__.'/../../../admin_portal/partials/header.php';
+<?php include_once __DIR__ .'/../../admin_portal/functions/auth/login_function.php';
+include_once __DIR__.'/../../admin_portal/partials/header.php';
 ?>
 
 <!-- Start Switcher -->

@@ -1,6 +1,5 @@
 <?php
 // Initialize the session
-session_start();
 $url = $_SERVER['REQUEST_URI'];
 
 // Check if the current URL does not contain 'login'
