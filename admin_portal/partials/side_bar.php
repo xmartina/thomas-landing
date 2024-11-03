@@ -32,6 +32,14 @@
                         <span class="side-menu__label">Dashboards<span class="badge bg-warning-transparent ms-2">12</span></span>
                         <i class="fe fe-chevron-right side-menu__angle"></i>
                     </a>
+                    <ul class="slide-menu child1">
+                        <li class="slide side-menu__label1">
+                            <a href="javascript:void(0)">Dashboards</a>
+                        </li>
+                        <li class="slide">
+                            <a href="index.html" class="side-menu__item">CRM</a>
+                        </li>
+                    </ul>
                 </li>
                 <!-- End::slide -->
 
