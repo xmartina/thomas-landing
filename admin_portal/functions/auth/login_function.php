@@ -50,14 +50,14 @@ if (isset($_POST['login'])) {
             }
         } else { ?>
             <script type="text/javascript">
-                window.location.assign('<?= $admin_url ?>v_card/auth/?error=invalid_username');
+                window.location.assign('<?= $admin_url ?>login/?error=invalid_username');
             </script>
             <?php
             exit();
         }
     } else { ?>
         <script type="text/javascript">
-            window.location.assign('<?= $admin_url ?>v_card/auth/?error=missing_credentials');
+            window.location.assign('<?= $admin_url ?>login/?error=missing_credentials');
         </script>
         <?php
         exit();
