@@ -14,10 +14,10 @@ if (strpos($url, 'login') === false) {
 elseif (strpos($url, 'login') !== false) {
     // If the user is already logged in, redirect to the admin portal
     if (isset($_SESSION['user_id'])) {
+        $id = $_SESSION['user_id'];
         header("Location:".$admin_url);
         exit;
     }
 }
-
 
 ?>
