@@ -25,6 +25,16 @@
                 <li class="slide__category"><span class="category-name">Main</span></li>
                 <!-- End::slide__category -->
 
+
+                <!-- Start::slide -->
+                <li class="slide">
+                    <a href="<?= $admin_url ?>" class="side-menu__item">
+                        <i class="bx bx-gift side-menu__icon"></i>
+                        <span class="side-menu__label">Dashboard<span class="badge bg-danger-transparent ms-2">Hot</span></span>
+                    </a>
+                </li>
+                <!-- End::slide -->
+
                 <!-- Start::slide -->
                 <li class="slide has-sub">
                     <a href="<?= $admin_url ?>" class="side-menu__item">
