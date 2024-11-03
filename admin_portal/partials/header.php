@@ -83,7 +83,7 @@
 
             </div>
             <!-- End::header-content-left -->
-
+<?php if (strpos($url, 'login') !== false){?>
             <!-- Start::header-content-right -->
             <div class="header-content-right">
 
@@ -617,3 +617,4 @@
     </header>
     <!-- /app-header -->
     <?php include_once __DIR__.'/../partials/side_bar.php'; ?>
+<?php } ?>
