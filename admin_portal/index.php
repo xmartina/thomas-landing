@@ -80,7 +80,8 @@ include_once __DIR__.'/../admin_portal/partials/header.php';
                                             $full_name = $first_name . ' ' . $last_name;
 
                                             // Generate a unique ID for the badge using the reg_number or another unique field
-                                            $badgeId = 'badge-state-' . $reg_number;
+//                                            $badgeId = 'badge-state-' . $reg_number;
+                                            $badgeId = $reg_number;
                                             ?>
                                             <tr>
                                                 <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value="" aria-label="..."></th>
