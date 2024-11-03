@@ -20,12 +20,12 @@ if (strpos($page_url, 'auth') === false) {
 
 // Check if login form is submitted
 if (isset($_POST['login'])) {
-    $username = trim($_POST['email']);
+    $useremail = trim($_POST['email']);
     $password = trim($_POST['password']);
 
     if (!empty($username) && !empty($password)) {
         // Query to check if the username exists
-        $query = "SELECT id, username, password FROM users WHERE username = '$username'";
+        $query = "SELECT id, useremail, password FROM users WHERE useremail = '$useremail'";
         $result = mysqli_query($conn, $query);
 
         // Check if the user exists
@@ -36,7 +36,7 @@ if (isset($_POST['login'])) {
             // Verify password
             if (password_verify($password, $hashed_password)) {
                 $_SESSION['user_id'] = $row['id'];
-                $_SESSION['username'] = $row['username'];
+                $_SESSION['useremail'] = $row['useremail'];
 
                 // Redirect to v_card page
                 header("Location: " . $admin_url . "v_card");
