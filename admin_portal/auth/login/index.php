@@ -1,0 +1,1 @@
+<?php include_once __DIR__ .'/../../../admin_portal/functions/login_function.php';
