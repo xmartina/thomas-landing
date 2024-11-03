@@ -487,7 +487,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                     <img src="<?= $admin_url ?>assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
                 </a>
             </div>
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+            <form action="" method="post">
             <div class="card custom-card">
                 <div class="card-body p-5">
                     <p class="h5 fw-semibold mb-2 text-center">Sign In</p>
