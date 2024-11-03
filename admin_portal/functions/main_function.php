@@ -23,3 +23,5 @@ $login_url = $admin_url. 'auth/login';
 $register_url = $admin_url. 'auth/register';
 $logout_url = $admin_url. 'auth/logout';
 $forgotten_password_url = $admin_url. 'auth/forgotten_password';
+$site_logo = 'TMIT';
+$sitelogo = $site_logo;
