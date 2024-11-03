@@ -57,11 +57,11 @@ include_once __DIR__.'/../admin_portal/partials/header.php';
                                         <thead>
                                         <tr>
                                             <th scope="row" class="ps-4"><input class="form-check-input" type="checkbox" id="checkboxNoLabel1" value="" aria-label="..."></th>
-                                            <th scope="col">Sales Rep</th>
-                                            <th scope="col">Category</th>
-                                            <th scope="col">Mail</th>
-                                            <th scope="col">Location</th>
-                                            <th scope="col">Date</th>
+                                            <th scope="col">Student Name</th>
+                                            <th scope="col">Reg Number</th>
+                                            <th scope="col">Previous Class</th>
+                                            <th scope="col">State</th>
+                                            <th scope="col">Reg Date</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                         </thead>
