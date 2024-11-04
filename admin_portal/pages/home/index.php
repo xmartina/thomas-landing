@@ -553,8 +553,61 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                     <!-- End:: Rector Welcome Note Form -->
                                 <?php } } ?>
                         </div>
-    <div class="collapse" id="edit2">
-        dhak
+    <div class="collapse" id="edit_rector">
+        <?php
+        $sql = "SELECT * FROM home_about_section WHERE id = 3";
+        $result = $conn->query($sql);
+        if ($result->num_rows > 0) {
+            // Use while loop to fetch and display results
+            while ($row = $result->fetch_assoc()) {
+                $title = $row['title'];
+                $content = $row['content'];
+                $button_text = $row['button_text'];
+                $button_link = $row['button_link'];
+                ?>
+                <!-- Start:: slider-3 -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card custom-card">
+                            <div class="card-header justify-content-between">
+                                <div class="card-title">
+                                    Home About 3
+                                </div>
+                            </div>
+                            <form action="" method="post">
+                                <div class="card-body">
+                                    <div class="row gy-4">
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">title:</p>
+                                            <input name="title" type="text" class="form-control" value="<?=$title?>" id="input">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">content:</p>
+                                            <input name="content" type="text" class="form-control" value="<?=$content?>" id="input">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">bottom_text:</p>
+                                            <input name="button_text" type="text" class="form-control" value="<?=$button_text?>" id="input">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">button_link:</p>
+                                            <input name="button_link" type="text" class="form-control" value="<?=$button_link?>" id="input">
+                                        </div>
+
+                                        <!-- Submit BTN -->
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <label for="input-submit" class="form-label">Submit</label>
+                                            <input type="submit" name="update_home_about_3" class="form-control" id="input-submit" value="Submit">
+                                        </div>
+                                        <!-- End -->
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End:: row-3 -->
+            <?php } } ?>
     </div>
                     </div>
                 </div>
