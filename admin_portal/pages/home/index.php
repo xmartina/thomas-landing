@@ -1,11 +1,12 @@
 <?php
+$page_name = 'Home Page';
 include_once __DIR__.'/../../../admin_portal/functions/dashboard_function.php';
 include_once __DIR__.'/../../../admin_portal/partials/header.php';
 ?>
 <!-- Start::app-content -->
 <div class="main-content app-content">
     <div class="container-fluid">
-
+<?php include_once __DIR__.'/../../../admin_portal/partials/breadcrumb.php'; ?>
         <!-- Start:: row-9 -->
         <div class="row">
             <div class="col-xl-6">
