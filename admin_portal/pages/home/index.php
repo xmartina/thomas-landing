@@ -84,14 +84,8 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                     <p class="mb-2 text-muted">slider image:</p>
                                                     <div class="row">
                                                         <div class="col-lg-7">
-                                                            <div class="row">
-                                                                <div class="col-xl-12">
-                                                                    <div class="card custom-card">
-                                                                        <div class="card-body">
-                                                                            <input type="file" class="multiple-filepond" name="filepond" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="1">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                                                            <div class="mb-3">
+                                                                <input class="form-control form-control-sm" id="formFileSm" type="file">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-5">
