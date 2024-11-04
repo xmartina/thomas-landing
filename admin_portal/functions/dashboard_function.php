@@ -258,4 +258,78 @@ if (isset($_POST['update_home_about_3'])) {
     $conn->close();
 }
 
+if (isset($_POST['update_rector_welcome_note'])) {
+    $sub_title = $_POST['sub_title'];
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $button_text = $_POST['button_text'];
+    $button_link = $_POST['button_link'];
+    $rec_position = $_POST['rec_position'];
+    $rec_name = $_POST['rec_name'];
+
+    // File upload handling
+    $rec_img = $extra_img = "";
+
+    // Check for new rector image
+    if (!empty($_FILES['rec_img']['name'])) {
+        $target_dir = "/assets/school_image/staff/";
+        $rec_img = basename($_FILES["rec_img"]["name"]);
+        $target_file = $target_dir . $rec_img;
+        if (move_uploaded_file($_FILES["rec_img"]["tmp_name"], $target_file)) {
+            echo "The file " . htmlspecialchars($rec_img) . " has been uploaded.";
+        } else {
+            echo "Sorry, there was an error uploading your rector image.";
+        }
+    }
+
+    // Check for new extra image
+    if (!empty($_FILES['extra_img']['name'])) {
+        $target_dir = "/assets/school_image/staff/";
+        $extra_img = basename($_FILES["extra_img"]["name"]);
+        $target_file = $target_dir . $extra_img;
+        if (move_uploaded_file($_FILES["extra_img"]["tmp_name"], $target_file)) {
+            echo "The file " . htmlspecialchars($extra_img) . " has been uploaded.";
+        } else {
+            echo "Sorry, there was an error uploading your extra image.";
+        }
+    }
+
+    // SQL UPDATE query
+    $sql = "UPDATE rector_welcome_note SET
+                sub_title = '$sub_title',
+                title = '$title',
+                content = '$content',
+                button_text = '$button_text',
+                button_link = '$button_link',
+                rec_position = '$rec_position',
+                rec_name = '$rec_name'
+            ";
+
+    // Add image fields only if new images were uploaded
+    if (!empty($rec_img)) {
+        $sql .= ", rec_img = '$rec_img'";
+    }
+    if (!empty($extra_img)) {
+        $sql .= ", extra_img = '$extra_img'";
+    }
+
+    // Specify record ID
+    $sql .= " WHERE id = 1";
+
+    // Execute the query
+    if ($conn->query($sql) === TRUE) { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?success=rector_note_updated";
+        </script>
+    <?php } else { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?error=error_updating_record";
+        </script>
+    <?php }
+
+    // Close connection
+    $conn->close();
+}
+
+
 ?>

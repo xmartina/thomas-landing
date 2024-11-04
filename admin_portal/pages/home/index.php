@@ -49,6 +49,11 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit home about 3
                             </button>
+                            <button class="btn btn-success collapsed mb-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#edit_rector_welcome_note"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                Edit Rector Welcome Note
+                            </button>
                         </p>
                         <div class="collapse" id="edit_slider_1">
                             <!--slider forms-->
@@ -463,6 +468,89 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                         </div>
                                     </div>
                                     <!-- End:: row-3 -->
+                                <?php } } ?>
+                        </div>
+<!--                        Home | Rector welcome note-->
+                        <div class="collapse" id="edit_rector_welcome_note">
+                            <!--slider forms-->
+                            <?php
+                            $sql = "SELECT * FROM rector_welcome_note WHERE id = 1";
+                            $result = $conn->query($sql);
+                            if ($result->num_rows > 0) {
+                                // Use while loop to fetch and display results
+                                while ($row = $result->fetch_assoc()) {
+                                    $sub_title = $row['sub_title'];
+                                    $title = $row['title'];
+                                    $content = $row['content'];
+                                    $button_text = $row['button_text'];
+                                    $button_link = $row['button_link'];
+                                    $rec_img = $row['rec_img'];
+                                    $rec_position = $row['rec_position'];
+                                    $rec_name = $row['rec_name'];
+                                    $extra_img = $row['extra_img'];
+                                    ?>
+                                    <!-- Start:: Rector Welcome Note Form -->
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="card custom-card">
+                                                <div class="card-header justify-content-between">
+                                                    <div class="card-title">
+                                                        Rector Welcome Note
+                                                    </div>
+                                                </div>
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    <div class="card-body">
+                                                        <div class="row gy-4">
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Sub Title:</p>
+                                                                <input name="sub_title" type="text" class="form-control" value="<?=$sub_title?>" id="input">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Title:</p>
+                                                                <input name="title" type="text" class="form-control" value="<?=$title?>" id="input">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Content:</p>
+                                                                <textarea name="content" class="form-control" id="input"><?=$content?></textarea>
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Button Text:</p>
+                                                                <input name="button_text" type="text" class="form-control" value="<?=$button_text?>" id="input">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Button Link:</p>
+                                                                <input name="button_link" type="text" class="form-control" value="<?=$button_link?>" id="input">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Rector Image:</p>
+                                                                <input class="form-control" name="rec_img" type="file">
+                                                                <img class="rounded mt-2" src="/assets/school_image/staff/<?=$rec_img?>" alt="" style="max-width:89px;">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Rector Position:</p>
+                                                                <input name="rec_position" type="text" class="form-control" value="<?=$rec_position?>" id="input">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Rector Name:</p>
+                                                                <input name="rec_name" type="text" class="form-control" value="<?=$rec_name?>" id="input">
+                                                            </div>
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <p class="mb-2 text-muted">Extra Image:</p>
+                                                                <input class="form-control" name="extra_img" type="file">
+                                                                <img class="rounded mt-2" src="/assets/school_image/staff/<?=$extra_img?>" alt="" style="max-width:89px;">
+                                                            </div>
+                                                            <!-- Submit Button -->
+                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                                <label for="input-submit" class="form-label">Submit</label>
+                                                                <input type="submit" name="update_rector_welcome_note" class="form-control" id="input-submit" value="Submit">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End:: Rector Welcome Note Form -->
                                 <?php } } ?>
                         </div>
 
