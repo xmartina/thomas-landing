@@ -23,12 +23,12 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit Slider 1
                             </button>
-                            <button class="btn btn-secondary collapsed mb-2" type="button"
+                            <button class="btn btn-warning-ghost collapsed mb-2" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#edit_slider_2"
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit Slider 2
                             </button>
-                            <button class="btn btn-secondary collapsed mb-2" type="button"
+                            <button class="btn btn-success collapsed mb-2" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#edit_slider_3"
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit Slider 3
