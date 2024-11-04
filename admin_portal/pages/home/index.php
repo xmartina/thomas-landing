@@ -28,6 +28,11 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit Slider 2
                             </button>
+                            <button class="btn btn-secondary collapsed mb-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#edit_slider_3"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                Edit Slider 3
+                            </button>
                         </p>
                         <div class="collapse" id="edit_slider_1">
                             <!--slider forms-->
