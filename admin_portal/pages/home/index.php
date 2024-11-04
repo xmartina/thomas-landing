@@ -50,7 +50,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                 Edit home about 3
                             </button>
                             <button class="btn btn-success collapsed mb-2" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#edit_rector_welcome_note"
+                                    data-bs-toggle="collapse" data-bs-target="#edit_rector"
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit Rector Welcome Note
                             </button>
@@ -471,7 +471,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                 <?php } } ?>
                         </div>
 <!--                        Home | Rector welcome note-->
-                        <div class="collapse" id="edit_rector_welcome_note">
+                        <div class="collapse" id="edit_rector">
                             <!--slider forms-->
                             <?php
                             $sql = "SELECT * FROM rector_welcome_note WHERE id = 1";
