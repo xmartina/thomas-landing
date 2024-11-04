@@ -58,8 +58,8 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
 
 <!--                                slider forms-->
                                 <!-- Start:: slider-1 -->
-                                <div class="row collapse" id="#edit_slider_2">
-                                    <div class="col-xl-12">
+                                <div class="row">
+                                    <div id="#edit_slider_2" class="col-xl-12 collapse">
                                         <div class="card custom-card">
                                             <div class="card-header justify-content-between">
                                                 <div class="card-title">
