@@ -497,32 +497,52 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                     Rector Welcome Note
                                 </div>
                             </div>
-                            <form action="" method="post">
+                            <form action="" method="post" enctype="multipart/form-data">
                                 <div class="card-body">
                                     <div class="row gy-4">
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                            <p class="mb-2 text-muted">title:</p>
+                                            <p class="mb-2 text-muted">Sub Title:</p>
+                                            <input name="sub_title" type="text" class="form-control" value="<?=$sub_title?>" id="input">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">Title:</p>
                                             <input name="title" type="text" class="form-control" value="<?=$title?>" id="input">
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                            <p class="mb-2 text-muted">content:</p>
-                                            <input name="content" type="text" class="form-control" value="<?=$content?>" id="input">
+                                            <p class="mb-2 text-muted">Content:</p>
+                                            <textarea name="content" class="form-control" id="input"><?=$content?></textarea>
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                            <p class="mb-2 text-muted">bottom_text:</p>
+                                            <p class="mb-2 text-muted">Button Text:</p>
                                             <input name="button_text" type="text" class="form-control" value="<?=$button_text?>" id="input">
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                            <p class="mb-2 text-muted">button_link:</p>
+                                            <p class="mb-2 text-muted">Button Link:</p>
                                             <input name="button_link" type="text" class="form-control" value="<?=$button_link?>" id="input">
                                         </div>
-
-                                        <!-- Submit BTN -->
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">Rector Image:</p>
+                                            <input class="form-control" name="rec_img" type="file">
+                                            <img class="rounded mt-2" src="/assets/school_image/staff/<?=$rec_img?>" alt="" style="max-width:89px;">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">Rector Position:</p>
+                                            <input name="rec_position" type="text" class="form-control" value="<?=$rec_position?>" id="input">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">Rector Name:</p>
+                                            <input name="rec_name" type="text" class="form-control" value="<?=$rec_name?>" id="input">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                            <p class="mb-2 text-muted">Extra Image:</p>
+                                            <input class="form-control" name="extra_img" type="file">
+                                            <img class="rounded mt-2" src="/assets/school_image/staff/<?=$extra_img?>" alt="" style="max-width:89px;">
+                                        </div>
+                                        <!-- Submit Button -->
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                             <label for="input-submit" class="form-label">Submit</label>
-                                            <input type="submit" name="update_home_about_3" class="form-control" id="input-submit" value="Submit">
+                                            <input type="submit" name="update_rector_welcome_note" class="form-control" id="input-submit" value="Submit">
                                         </div>
-                                        <!-- End -->
                                     </div>
                                 </div>
                             </form>
