@@ -21,7 +21,7 @@
             <div class=" col-md-12 col-lg-5">
                 <div class="skill-team-content">
                     <div class="heading-title mb-40">
-                        <span class="sub-title texts-blue font-man"><?= $site_name ?></span>
+                        <span class="sub-title texts-blue font-man"><?= $sub_title ?></span>
                         <h2 class="title"><?= $title ?></h2>
                         <p class="des"><?= $content ?></p>
                     </div>
