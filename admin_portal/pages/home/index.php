@@ -527,7 +527,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                     <input class="form-control" name="rec_img" type="file">
                                                 </div>
                                                 <div class="col-lg-5">
-                                                    <img class="rounded mt-2" src="/assets/school_image/staff/<?=$rec_img?>" alt="" style="max-width:89px;">
+                                                    <img class="rounded mt-2" src="/assets/school_image/staff/<?=$rec_img?>" alt="" style="max-height:89px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -547,7 +547,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                 </div>
                                             </div>
                                             <div class="col-lg-5">
-                                                <img class="rounded mt-2" src="/assets/images/<?=$extra_img?>" alt="" style="max-width:89px;">
+                                                <img class="rounded mt-2" src="/assets/images/<?=$extra_img?>" alt="" style="max-height:89px;">
                                             </div>
                                         </div>
                                         <!-- Submit Button -->
