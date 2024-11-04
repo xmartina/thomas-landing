@@ -27,8 +27,9 @@ $site_logo = 'TMIT';
 $sitelogo = $site_logo;
 
 include_once __DIR__.'/../../admin_portal/functions/auth/session.php';
-
-$id = $_SESSION['user_id'];
+if (isset($_SESSION['user_id'])) {
+    $id = $_SESSION['user_id'];
+}
 $select_user_sql = "SELECT * FROM users WHERE id = '$id'";
 $select_user_result = $conn->query($select_user_sql);
 
