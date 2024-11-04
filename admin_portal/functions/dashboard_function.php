@@ -284,7 +284,7 @@ if (isset($_POST['update_rector_welcome_note'])) {
 
     // Check for new extra image
     if (!empty($_FILES['extra_img']['name'])) {
-        $target_dir = "/assets/school_image/staff/";
+        $target_dir = "/assets/images/";
         $extra_img = basename($_FILES["extra_img"]["name"]);
         $target_file = $target_dir . $extra_img;
         if (move_uploaded_file($_FILES["extra_img"]["tmp_name"], $target_file)) {

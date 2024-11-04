@@ -522,8 +522,14 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                             <p class="mb-2 text-muted">Rector Image:</p>
-                                            <input class="form-control" name="rec_img" type="file">
-                                            <img class="rounded mt-2" src="/assets/school_image/staff/<?=$rec_img?>" alt="" style="max-width:89px;">
+                                            <div class="row">
+                                                <div class="col-lg-7">
+                                                    <input class="form-control" name="rec_img" type="file">
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <img class="rounded mt-2" src="/assets/school_image/staff/<?=$rec_img?>" alt="" style="max-width:89px;">
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                             <p class="mb-2 text-muted">Rector Position:</p>
@@ -535,8 +541,14 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                             <p class="mb-2 text-muted">Extra Image:</p>
-                                            <input class="form-control" name="extra_img" type="file">
-                                            <img class="rounded mt-2" src="/assets/school_image/staff/<?=$extra_img?>" alt="" style="max-width:89px;">
+                                            <div class="row">
+                                                <div class="col-lg-7">
+                                                    <input class="form-control" name="extra_img" type="file">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <img class="rounded mt-2" src="/assets/images/<?=$extra_img?>" alt="" style="max-width:89px;">
+                                            </div>
                                         </div>
                                         <!-- Submit Button -->
                                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
