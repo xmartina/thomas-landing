@@ -17,14 +17,12 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                         </div>
                     </div>
                     <div class="card-body">
-                        <p class="mb-0">
+                        <p class="mb-0 d-flex justify-content-between">
                             <button class="btn btn-secondary collapsed mb-2" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#edit_slider_1"
                                     aria-expanded="false" aria-controls="collapseExample">
                                 Edit Slider 1
                             </button>
-                        </p>
-                        <p class="mb-0">
                             <button class="btn btn-secondary collapsed mb-2" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#edit_slider_2"
                                     aria-expanded="false" aria-controls="collapseExample">
