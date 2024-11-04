@@ -83,7 +83,34 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                     <p class="mb-2 text-muted">slider image:</p>
                                                     <div class="row">
-                                                        <div class="col-lg-7"></div>
+                                                        <div class="col-lg-7">
+                                                            <div class="row">
+                                                                <div class="col-xl-12">
+                                                                    <div class="card custom-card">
+                                                                        <div class="card-header">
+                                                                            <div class="card-title">
+                                                                                Slider Image
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <input type="file" class="multiple-filepond" name="filepond" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="1">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-12">
+                                                                    <div class="card custom-card">
+                                                                        <div class="card-header">
+                                                                            <div class="card-title">
+                                                                                Single Upload
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <input type="file" class="single-fileupload" name="filepond" accept="image/png, image/jpeg, image/gif">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                         <div class="col-lg-5">
                                                             <img class="rounded" src="/assets/images/slide/<?=$slider_img?>" alt="" style="max-width:89px;">
                                                         </div>
