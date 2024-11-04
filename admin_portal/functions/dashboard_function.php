@@ -171,4 +171,91 @@ if (isset($_POST['update_slider_3'])) {
     $conn->close();
 }
 
+if (isset($_POST['update_home_about_1'])) {
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $button_text = $_POST['button_text'];
+    $button_link = $_POST['button_link'];
+
+    // SQL UPDATE query
+    $sql = "UPDATE home_about_section SET
+                title = '$title',
+                content = '$content',
+                button_text = '$button_text',
+                button_link = '$button_link'
+            WHERE id = 1";
+
+    // Execute query and check if it succeeded
+    if ($conn->query($sql) === TRUE) { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?success=home_about_updated";
+        </script>
+    <?php } else { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?error=error_updating_record";
+        </script>
+    <?php }
+
+    // Close connection
+    $conn->close();
+}
+
+if (isset($_POST['update_home_about_2'])) {
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $button_text = $_POST['button_text'];
+    $button_link = $_POST['button_link'];
+
+    // SQL UPDATE query
+    $sql = "UPDATE home_about_section SET
+                title = '$title',
+                content = '$content',
+                button_text = '$button_text',
+                button_link = '$button_link'
+            WHERE id = 2";
+
+    // Execute query and check if it succeeded
+    if ($conn->query($sql) === TRUE) { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?success=home_about_updated";
+        </script>
+    <?php } else { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?error=error_updating_record";
+        </script>
+    <?php }
+
+    // Close connection
+    $conn->close();
+}
+
+if (isset($_POST['update_home_about_3'])) {
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $button_text = $_POST['button_text'];
+    $button_link = $_POST['button_link'];
+
+    // SQL UPDATE query
+    $sql = "UPDATE home_about_section SET
+                title = '$title',
+                content = '$content',
+                button_text = '$button_text',
+                button_link = '$button_link'
+            WHERE id = 3";
+
+    // Execute query and check if it succeeded
+    if ($conn->query($sql) === TRUE) { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?success=home_about_updated";
+        </script>
+    <?php } else { ?>
+        <script type="text/javascript">
+            window.location.href = "<?= $admin_url ?>pages/home/?error=error_updating_record";
+        </script>
+    <?php }
+
+    // Close connection
+    $conn->close();
+}
+
 ?>
