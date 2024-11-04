@@ -11,7 +11,6 @@
                 $content = $row['content'];
                 $button_text = $row['button_text'];
                 $button_link = $row['button_link'];
-                $data_wow_delay = $row['data-wow-delay'];
                 $rec_img = $row['rec_img'];
                 $rec_position = $row['rec_position'];
                 $rec_name = $row['rec_name'];
