@@ -553,7 +553,6 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                     <!-- End:: Rector Welcome Note Form -->
                                 <?php } } ?>
                         </div>
-
                     </div>
                 </div>
             </div>
