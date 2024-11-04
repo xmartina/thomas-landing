@@ -1,6 +1,6 @@
 <?php
-include_once __DIR__.'/../admin_portal/functions/dashboard_function.php';
-include_once __DIR__.'/../admin_portal/partials/header.php';
+include_once __DIR__.'/../../admin_portal/functions/dashboard_function.php';
+include_once __DIR__.'/../../admin_portal/partials/header.php';
 ?>
 <!-- Start::app-content -->
 <div class="main-content app-content">
@@ -171,5 +171,5 @@ include_once __DIR__.'/../admin_portal/partials/header.php';
 </div>
     <!-- End::app-content -->
 <?php
-include_once __DIR__.'/../admin_portal/partials/footer.php';
+include_once __DIR__.'/../../admin_portal/partials/footer.php';
 ?>
