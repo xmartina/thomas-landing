@@ -85,7 +85,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                     <div class="row">
                                                         <div class="col-lg-7"></div>
                                                         <div class="col-lg-5">
-                                                            <img src="/assets/images/slide/<?=$slider_img?>" alt="" style="max-width:89px;">
+                                                            <img class="rounded" src="/assets/images/slide/<?=$slider_img?>" alt="" style="max-width:89px;">
                                                         </div>
                                                     </div>
                                                 </div>
