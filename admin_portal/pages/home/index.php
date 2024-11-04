@@ -54,7 +54,8 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                 Slider 2
                                             </div>
                                         </div>
-                                        <div class="card-body">
+                                        <form action="" method="post">
+                                            <div class="card-body">
                                             <div class="row gy-4">
                                                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                     <p class="mb-2 text-muted">sub_title:</p>
@@ -102,6 +103,7 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
 <!--                                                end-->
                                             </div>
                                         </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
