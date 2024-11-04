@@ -354,165 +354,118 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                         <div class="collapse" id="home_about_2">
                             <!--slider forms-->
                             <?php
-                            $sql = "SELECT * FROM front_slider WHERE id = 3";
+                            $sql = "SELECT * FROM home_about_section WHERE id = 2";
                             $result = $conn->query($sql);
                             if ($result->num_rows > 0) {
                                 // Use while loop to fetch and display results
                                 while ($row = $result->fetch_assoc()) {
-                                    $sub_title = $row['sub_title'];
                                     $title = $row['title'];
-                                    $bottom_title = $row['bottom_title'];
+                                    $content = $row['content'];
                                     $button_text = $row['button_text'];
                                     $button_link = $row['button_link'];
-                                    $inner_big_text = $row['inner_big_text'];
-                                    $slider_img = $row['slider_img'];
                                     ?>
-                                    <!-- Start:: slider-1 -->
+                                    <!-- Start:: slider-2 -->
                                     <div class="row">
                                         <div class="col-xl-12">
                                             <div class="card custom-card">
                                                 <div class="card-header justify-content-between">
                                                     <div class="card-title">
-                                                        Slider 3
+                                                        Home About 2
                                                     </div>
                                                 </div>
                                                 <form action="" method="post">
                                                     <div class="card-body">
                                                         <div class="row gy-4">
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">sub_title:</p>
-                                                                <input name="sub_title" type="text" class="form-control" value="<?=$sub_title?>" id="input">
-                                                            </div>
-                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">Title:</p>
+                                                                <p class="mb-2 text-muted">title:</p>
                                                                 <input name="title" type="text" class="form-control" value="<?=$title?>" id="input">
                                                             </div>
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">bottom_title:</p>
-                                                                <input name="bottom_title" type="text" class="form-control" value="<?=$bottom_title?>" id="input">
+                                                                <p class="mb-2 text-muted">content:</p>
+                                                                <input name="content" type="text" class="form-control" value="<?=$content?>" id="input">
                                                             </div>
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">button_text:</p>
+                                                                <p class="mb-2 text-muted">bottom_text:</p>
                                                                 <input name="button_text" type="text" class="form-control" value="<?=$button_text?>" id="input">
                                                             </div>
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                                 <p class="mb-2 text-muted">button_link:</p>
                                                                 <input name="button_link" type="text" class="form-control" value="<?=$button_link?>" id="input">
                                                             </div>
-                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">inner_big_text:</p>
-                                                                <input name="inner_big_text" type="text" class="form-control" value="<?=$inner_big_text?>" id="input">
-                                                            </div>
-                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">slider image:</p>
-                                                                <div class="row">
-                                                                    <div class="col-lg-7">
-                                                                        <div class="mb-3">
-                                                                            <input class="form-control form-control-sm" id="formFileSm" name="slider_img" type="file">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-5">
-                                                                        <img class="rounded" src="/assets/images/slide/<?=$slider_img?>" alt="" style="max-width:89px;">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
 
-                                                            <!--                                                Submit BTN-->
+                                                            <!-- Submit BTN -->
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                                 <label for="input-submit" class="form-label">Submit</label>
-                                                                <input type="submit" name="update_slider_3" class="form-control" id="input-submit" value="Submit">
+                                                                <input type="submit" name="update_home_about_2" class="form-control" id="input-submit" value="Submit">
                                                             </div>
-                                                            <!--                                                end-->
+                                                            <!-- End -->
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End:: row-1 -->
-                                <?php } }?>
+                                    <!-- End:: row-2 -->
+                                <?php } } ?>
                         </div>
                         <div class="collapse" id="home_about_3">
                             <!--slider forms-->
                             <?php
-                            $sql = "SELECT * FROM front_slider WHERE id = 3";
+                            $sql = "SELECT * FROM home_about_section WHERE id = 3";
                             $result = $conn->query($sql);
                             if ($result->num_rows > 0) {
                                 // Use while loop to fetch and display results
                                 while ($row = $result->fetch_assoc()) {
-                                    $sub_title = $row['sub_title'];
                                     $title = $row['title'];
-                                    $bottom_title = $row['bottom_title'];
+                                    $content = $row['content'];
                                     $button_text = $row['button_text'];
                                     $button_link = $row['button_link'];
-                                    $inner_big_text = $row['inner_big_text'];
-                                    $slider_img = $row['slider_img'];
                                     ?>
-                                    <!-- Start:: slider-1 -->
+                                    <!-- Start:: slider-3 -->
                                     <div class="row">
                                         <div class="col-xl-12">
                                             <div class="card custom-card">
                                                 <div class="card-header justify-content-between">
                                                     <div class="card-title">
-                                                        Slider 3
+                                                        Home About 3
                                                     </div>
                                                 </div>
                                                 <form action="" method="post">
                                                     <div class="card-body">
                                                         <div class="row gy-4">
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">sub_title:</p>
-                                                                <input name="sub_title" type="text" class="form-control" value="<?=$sub_title?>" id="input">
-                                                            </div>
-                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">Title:</p>
+                                                                <p class="mb-2 text-muted">title:</p>
                                                                 <input name="title" type="text" class="form-control" value="<?=$title?>" id="input">
                                                             </div>
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">bottom_title:</p>
-                                                                <input name="bottom_title" type="text" class="form-control" value="<?=$bottom_title?>" id="input">
+                                                                <p class="mb-2 text-muted">content:</p>
+                                                                <input name="content" type="text" class="form-control" value="<?=$content?>" id="input">
                                                             </div>
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">button_text:</p>
+                                                                <p class="mb-2 text-muted">bottom_text:</p>
                                                                 <input name="button_text" type="text" class="form-control" value="<?=$button_text?>" id="input">
                                                             </div>
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                                 <p class="mb-2 text-muted">button_link:</p>
                                                                 <input name="button_link" type="text" class="form-control" value="<?=$button_link?>" id="input">
                                                             </div>
-                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">inner_big_text:</p>
-                                                                <input name="inner_big_text" type="text" class="form-control" value="<?=$inner_big_text?>" id="input">
-                                                            </div>
-                                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                                <p class="mb-2 text-muted">slider image:</p>
-                                                                <div class="row">
-                                                                    <div class="col-lg-7">
-                                                                        <div class="mb-3">
-                                                                            <input class="form-control form-control-sm" id="formFileSm" name="slider_img" type="file">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-5">
-                                                                        <img class="rounded" src="/assets/images/slide/<?=$slider_img?>" alt="" style="max-width:89px;">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
 
-                                                            <!--                                                Submit BTN-->
+                                                            <!-- Submit BTN -->
                                                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                                                 <label for="input-submit" class="form-label">Submit</label>
-                                                                <input type="submit" name="update_slider_3" class="form-control" id="input-submit" value="Submit">
+                                                                <input type="submit" name="update_home_about_3" class="form-control" id="input-submit" value="Submit">
                                                             </div>
-                                                            <!--                                                end-->
+                                                            <!-- End -->
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End:: row-1 -->
-                                <?php } }?>
+                                    <!-- End:: row-3 -->
+                                <?php } } ?>
                         </div>
+
                     </div>
                 </div>
             </div>
