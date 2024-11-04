@@ -57,18 +57,34 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                         <div class="card-body">
                                             <div class="row gy-4">
                                                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <p class="mb-2 text-muted"><?=$sub_title?>:</p>
+                                                    <p class="mb-2 text-muted">sub_title:</p>
                                                     <input name="sub_title" type="text" class="form-control" value="<?=$sub_title?>" id="input">
                                                 </div>
                                                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <p class="mb-2 text-muted"><?=$title?>:</p>
+                                                    <p class="mb-2 text-muted">Title:</p>
                                                     <input name="title" type="text" class="form-control" value="<?=$title?>" id="input">
+                                                </div>
+                                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                    <p class="mb-2 text-muted">bottom_title:</p>
+                                                    <input name="bottom_title" type="text" class="form-control" value="<?=$bottom_title?>" id="input">
+                                                </div>
+                                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                    <p class="mb-2 text-muted">button_text:</p>
+                                                    <input name="button_text" type="text" class="form-control" value="<?=$button_text?>" id="input">
+                                                </div>
+                                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                    <p class="mb-2 text-muted">button_link:</p>
+                                                    <input name="button_link" type="text" class="form-control" value="<?=$button_link?>" id="input">
+                                                </div>
+                                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                    <p class="mb-2 text-muted">inner_big_text:</p>
+                                                    <input name="inner_big_text" type="text" class="form-control" value="<?=$inner_big_text?>" id="input">
                                                 </div>
 
 <!--                                                Submit BTN-->
                                                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                                                    <label for="input-submit" class="form-label">Type Submit</label>
-                                                    <input type="submit" class="form-control" id="input-submit" value="Submit">
+                                                    <label for="input-submit" class="form-label">Submit</label>
+                                                    <input type="submit" name="update_slider_1" class="form-control" id="input-submit" value="Submit">
                                                 </div>
 <!--                                                end-->
                                             </div>
