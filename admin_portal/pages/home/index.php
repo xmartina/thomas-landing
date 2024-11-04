@@ -80,6 +80,15 @@ include_once __DIR__.'/../../../admin_portal/partials/header.php';
                                                     <p class="mb-2 text-muted">inner_big_text:</p>
                                                     <input name="inner_big_text" type="text" class="form-control" value="<?=$inner_big_text?>" id="input">
                                                 </div>
+                                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                                    <p class="mb-2 text-muted">slider image:</p>
+                                                    <div class="row">
+                                                        <div class="col-lg-7"></div>
+                                                        <div class="col-lg-5">
+                                                            <img src="/assets/images/slide/<?=$slider_img?>" alt="" style="max-width:89px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
 
 <!--                                                Submit BTN-->
                                                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
